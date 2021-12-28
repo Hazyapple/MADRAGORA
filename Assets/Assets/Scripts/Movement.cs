@@ -31,16 +31,16 @@ public class Movement : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Ground"))
-            isGrounded = false;
+       if (other.CompareTag("Ground"))
+                isGrounded = false;
     }
-
-
-    // Update is called once per frame
-    void Update()
+    
+   
+// Update is called once per frame
+private void Update()
     {
 
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow) && !PlayerLife.isDead)
 
         {
             transform.Translate(new Vector3(-2, 0, 0) * Time.deltaTime);
@@ -49,7 +49,7 @@ public class Movement : MonoBehaviour
 
 
 
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow) && !PlayerLife.isDead)
         {
             transform.Translate(new Vector3(2, 0, 0) * Time.deltaTime);
             sprite.flipX = false;

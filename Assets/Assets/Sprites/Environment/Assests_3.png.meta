@@ -272,27 +272,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Assests_3_8
-      rect:
-        serializedVersion: 2
-        x: 1262
-        y: 1062
-        width: 178
-        height: 227
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ac43a66df508f147a189cbb79c10b87
-      internalID: 1859383220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Assests_3_9
       rect:
         serializedVersion: 2
@@ -301,7 +280,7 @@ TextureImporter:
         width: 236
         height: 248
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -317,12 +296,12 @@ TextureImporter:
       name: Assests_3_10
       rect:
         serializedVersion: 2
-        x: 808
+        x: 739
         y: 898
-        width: 446
-        height: 492
+        width: 526
+        height: 524
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -343,7 +322,7 @@ TextureImporter:
         width: 209
         height: 268
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
