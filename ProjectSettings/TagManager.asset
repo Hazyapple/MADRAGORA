@@ -44,9 +44,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 2551269381
+    locked: 0
   - name: Terrain (Mushrooms)
     uniqueID: 2133894967
     locked: 0
   - name: Player
     uniqueID: 1720428377
+    locked: 0
+  - name: Moving Platforn
+    uniqueID: 2642624661
+    locked: 0
+  - name: Mayapple
+    uniqueID: 651147921
+    locked: 0
+  - name: Thorns
+    uniqueID: 834212303
     locked: 0

@@ -404,3 +404,307 @@ Received Import Request.
   path: Assets/Assets/PreFabs/Mayapple.prefab
   artifactKey: Guid(9a9c49acbe6364d4285e5de2a09765e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Assets/PreFabs/Mayapple.prefab using Guid(9a9c49acbe6364d4285e5de2a09765e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a139d62e02bc638820c7db32ee9cd71') in 0.087383 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008227 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.746 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1747ms)
+		BeginReloadAssembly (414ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (29ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (157ms)
+		EndReloadAssembly (1212ms)
+			LoadAssemblies (180ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (299ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (621ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (456ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3881 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.7 KB). Loaded Objects now: 4364.
+Memory consumption went from 152.9 MB to 152.8 MB.
+Total: 5.636000 ms (FindLiveObjects: 0.346800 ms CreateObjectMapping: 0.273200 ms MarkObjects: 4.933800 ms  DeleteObjects: 0.081100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006763 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.270 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1271ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1001ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (512ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (381ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3881 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.6 KB). Loaded Objects now: 4366.
+Memory consumption went from 152.9 MB to 152.8 MB.
+Total: 4.468900 ms (FindLiveObjects: 0.347000 ms CreateObjectMapping: 0.232000 ms MarkObjects: 3.775800 ms  DeleteObjects: 0.113100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 63375.987729 seconds.
+  path: Packages/com.unity.mathematics
+  artifactKey: Guid(795e97ad99e2f6ffd2060ae1983b6f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.mathematics using Guid(795e97ad99e2f6ffd2060ae1983b6f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823e52eecea17222d0bb6172901f0521') in 0.015613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.192956 seconds.
+  path: Packages/com.unity.mathematics/package.json
+  artifactKey: Guid(d34d0af25c21141a98c0cf3c0066444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.mathematics/package.json using Guid(d34d0af25c21141a98c0cf3c0066444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69e3b8f7f5dd1a29f17bfce59fe8df5') in 0.168052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 346.506209 seconds.
+  path: Assets/Nature - Essentials/Ambiance_Cave_Deep_Loop_Stereo.wav
+  artifactKey: Guid(c080a43439910fd4187301b9c4a240d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature - Essentials/Ambiance_Cave_Deep_Loop_Stereo.wav using Guid(c080a43439910fd4187301b9c4a240d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e55f76fe3e4c36846998ef6e18cb1ff') in 0.283459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Nature - Essentials/Ambiance_Sea_Loop_Stereo.wav
+  artifactKey: Guid(054205af35efcb942be9610445479a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature - Essentials/Ambiance_Sea_Loop_Stereo.wav using Guid(054205af35efcb942be9610445479a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c43e21a7d637deeab003b5cbcf4cc3b') in 0.080817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Nature - Essentials/Ambiance_Wind_Forest_Loop_Stereo.wav
+  artifactKey: Guid(749428170bd956149a4ede7c65dbb8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature - Essentials/Ambiance_Wind_Forest_Loop_Stereo.wav using Guid(749428170bd956149a4ede7c65dbb8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31943e6d4b41a5512609d4f6080a8482') in 0.017647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Nature - Essentials/Ambiance_Stream_Calm_Loop_Stereo.wav
+  artifactKey: Guid(f65f946ad6131674cb9a2a10c5ea326f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature - Essentials/Ambiance_Stream_Calm_Loop_Stereo.wav using Guid(f65f946ad6131674cb9a2a10c5ea326f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46a4fdd70b4ecd298963bf3ccc40725') in 0.013654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Nature - Essentials/Ambiance_Wind_Calm_Loop_Stereo.wav
+  artifactKey: Guid(660790bb19a97eb4581a05d90c81f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature - Essentials/Ambiance_Wind_Calm_Loop_Stereo.wav using Guid(660790bb19a97eb4581a05d90c81f369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b405431e95af336228d81bde7d0510') in 0.030426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Nature - Essentials/Ambiance_River_Moderate_Loop_Stereo.wav
+  artifactKey: Guid(8955ef71b3f090d45adb1918c64f99b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature - Essentials/Ambiance_River_Moderate_Loop_Stereo.wav using Guid(8955ef71b3f090d45adb1918c64f99b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb77dcdf909b33e278f85196d6eb7f18') in 0.028226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 278.108537 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Attack2.wav
+  artifactKey: Guid(61f1c1a6ae8668144ac74a4a0390ab20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Attack2.wav using Guid(61f1c1a6ae8668144ac74a4a0390ab20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716c22a37614f50f3a3af1a608a19836') in 0.027062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Die_3 long.wav
+  artifactKey: Guid(121df4ff91858d9498a8f60b32028fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Die_3 long.wav using Guid(121df4ff91858d9498a8f60b32028fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28238f3243c3a2c6564193c9fcb20a38') in 0.021212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Explosion.wav
+  artifactKey: Guid(2a1d9457615d7db41ac9e1eec282ffbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Explosion.wav using Guid(2a1d9457615d7db41ac9e1eec282ffbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db58fca10b62c281708da163c7540d57') in 0.025152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/bomb.wav
+  artifactKey: Guid(242fa02f88aa7914f8f16f152836c02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/bomb.wav using Guid(242fa02f88aa7914f8f16f152836c02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a782489f19c8043e2110bc69ab6eee') in 0.024920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Digital_Sword.wav
+  artifactKey: Guid(09986dc0305edc04685092434e463380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Digital_Sword.wav using Guid(09986dc0305edc04685092434e463380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d9ad76d6d62583dc28f1fbcb098c77') in 0.018234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Ring2.wav
+  artifactKey: Guid(d8300bd98d8415546a4444a75baa4b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Ring2.wav using Guid(d8300bd98d8415546a4444a75baa4b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff916c8bd51438a1921e24176c9717c3') in 0.024788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Item3.wav
+  artifactKey: Guid(e157d8c7fe1c3c64c912271f5c63885f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Item3.wav using Guid(e157d8c7fe1c3c64c912271f5c63885f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6762fa11304e474bca53b258d57824a1') in 0.026648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Warning_Loop2.wav
+  artifactKey: Guid(3f54be1e78029384b9c71bcf8374febb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Warning_Loop2.wav using Guid(3f54be1e78029384b9c71bcf8374febb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10ea753520ea55981d06ad1199e7cbd') in 0.024434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Die_2.wav
+  artifactKey: Guid(662f8b0fe7f39d341a63968054ccc95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Die_2.wav using Guid(662f8b0fe7f39d341a63968054ccc95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6bb5121995d7baf24c7e6ffda9072c') in 0.022374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Jump2.wav
+  artifactKey: Guid(3409bffbc0cbcb84fb2cdd58497ac01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Jump2.wav using Guid(3409bffbc0cbcb84fb2cdd58497ac01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39496b3c638aea5de1026cfad042f1fd') in 0.015408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Missile2.wav
+  artifactKey: Guid(f43513c8bf5be234a8769368ef090184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Missile2.wav using Guid(f43513c8bf5be234a8769368ef090184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b08f942f9423419f359ed72d50b76df') in 0.025205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Missile.wav
+  artifactKey: Guid(1ed1708d2064a9042ba3ee70b4bb36a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Missile.wav using Guid(1ed1708d2064a9042ba3ee70b4bb36a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b9f9d7deaeeaf75b7b7dd7ef46e56e') in 0.023818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Item4.wav
+  artifactKey: Guid(22c28920f9abb5442a566b9b6d077e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Item4.wav using Guid(22c28920f9abb5442a566b9b6d077e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50c3d89a361a9aa0ae0339ef9695d5f') in 0.019111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Jump4.wav
+  artifactKey: Guid(d4d41b15f8d53174d9b4e24a5ba90f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Jump4.wav using Guid(d4d41b15f8d53174d9b4e24a5ba90f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0678e5a63fbdfa13dfa80babd9ae60') in 0.024744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Computer_search.wav
+  artifactKey: Guid(cbbc00cb47ac0654aadac129f5592961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Computer_search.wav using Guid(cbbc00cb47ac0654aadac129f5592961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54fd42626c13e1654b52652c8e2cb31f') in 0.020863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.919601 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Click.wav
+  artifactKey: Guid(072c2abeb2b29eb49976721f8e4e9aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Click.wav using Guid(072c2abeb2b29eb49976721f8e4e9aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f017d48789c42af433098524fa345d9a') in 0.020845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Gauge_down.wav
+  artifactKey: Guid(6e9782a4d60a4d3439e2bb1f0fd20a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Gauge_down.wav using Guid(6e9782a4d60a4d3439e2bb1f0fd20a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392097bb1b52e45750972d64e9560ad8') in 0.018567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Pop_up2.wav
+  artifactKey: Guid(b621ef83be78ead4ca1eae8e0c0b0ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Pop_up2.wav using Guid(b621ef83be78ead4ca1eae8e0c0b0ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1051de77961b86817f0b87b13a3da5e') in 0.028991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Pop_up4.wav
+  artifactKey: Guid(bb97d1077dfdbe7448096f60fd1e4f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Pop_up4.wav using Guid(bb97d1077dfdbe7448096f60fd1e4f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc98f73ec60f0a639b5f23844a7851b') in 0.051639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Pop_up3.wav
+  artifactKey: Guid(a8ea8fe2018b1274f90dca732e79f4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Pop_up3.wav using Guid(a8ea8fe2018b1274f90dca732e79f4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624538b468aa08f3720f644b5b2684a5') in 0.023277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Gauge_up 1.wav
+  artifactKey: Guid(edaf8ecce0d9f394a9bda522b9954581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Gauge_up 1.wav using Guid(edaf8ecce0d9f394a9bda522b9954581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c072ee65b2129941d22698ede4983bc8') in 0.052785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Pop_error.wav
+  artifactKey: Guid(1fc0c0966190a6348acaabc4e0a5c156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Pop_error.wav using Guid(1fc0c0966190a6348acaabc4e0a5c156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5dfb33d0416cc4120d9c45cf2efbb70') in 0.021805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Select_2.wav
+  artifactKey: Guid(7cee228e3d430fd45a98ffb99c2c6f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Select_2.wav using Guid(7cee228e3d430fd45a98ffb99c2c6f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9dd11c5959db4ed9b7526275be7abab') in 0.026776 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,260 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.2f1 (5e2b1e92c7f8) revision 6171422'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1415; Version 2009; 64bit' Language: 'en' Physical Memory: 8046 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Programs\Unity Editors Installations\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Madragora/Unity/MADRAGORA
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+59552
+Successfully changed project path to: D:/Madragora/Unity/MADRAGORA
+D:/Madragora/Unity/MADRAGORA
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 201.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.2f1 (5e2b1e92c7f8)
+[Subsystems] Discovering subsystems at path D:/Programs/Unity Editors Installations/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Madragora/Unity/MADRAGORA/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   NVIDIA
+    VRAM:     4021 MB
+    Driver:   25.21.14.2546
+Initialize mono
+Mono path[0] = 'D:/Programs/Unity Editors Installations/Editor/Data/Managed'
+Mono path[1] = 'D:/Programs/Unity Editors Installations/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Programs/Unity Editors Installations/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programs/Unity Editors Installations/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006513 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 89.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.497 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1497ms)
+		BeginReloadAssembly (309ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (828ms)
+			LoadAssemblies (311ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (435ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.034102 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 122.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.033 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4034ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (3706ms)
+			LoadAssemblies (251ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (883ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (2322ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (122ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (2001ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.27 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3892 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (55.8 KB). Loaded Objects now: 4348.
+Memory consumption went from 149.2 MB to 149.1 MB.
+Total: 5.448700 ms (FindLiveObjects: 0.316500 ms CreateObjectMapping: 0.200100 ms MarkObjects: 4.832000 ms  DeleteObjects: 0.098900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 324144.238243 seconds.
+  path: Assets/Underwater_Blues/Underwater_Blues.wav
+  artifactKey: Guid(b2f08eaf10fed284daebd2f5a748bd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater_Blues/Underwater_Blues.wav using Guid(b2f08eaf10fed284daebd2f5a748bd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ffc781ace316f1a8258bde47d24f20') in 0.105608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.078528 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Attack.wav
+  artifactKey: Guid(132f502e03330844293c60b2ea839b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Attack.wav using Guid(132f502e03330844293c60b2ea839b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92af3c0a6a595c8007cf969413895960') in 0.028562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Razor2.wav
+  artifactKey: Guid(324f5296ef639b741abcd771cda87612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Razor2.wav using Guid(324f5296ef639b741abcd771cda87612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68125e0bae61ff1c700777f2ddc43eb0') in 0.017638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Item2.wav
+  artifactKey: Guid(8a40c51b6f5a7244b9074b73808f35bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Item2.wav using Guid(8a40c51b6f5a7244b9074b73808f35bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479bf9cf65f63ea39b6c86041a73a1eb') in 0.023643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Die_3.wav
+  artifactKey: Guid(a3ff8a98bf8e5ab4fa7f8b085fb35dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Die_3.wav using Guid(a3ff8a98bf8e5ab4fa7f8b085fb35dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae65dcf7ed6f26767bf11be36eb2a29') in 0.025799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Fall.wav
+  artifactKey: Guid(db1bffbd883ee5447969e50b34ad8e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Fall.wav using Guid(db1bffbd883ee5447969e50b34ad8e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5e3fc982c98c4af692777bddc80fab') in 0.022784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Jump5.wav
+  artifactKey: Guid(353d8a9f4c12b21459f2e9446740e995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Jump5.wav using Guid(353d8a9f4c12b21459f2e9446740e995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d5523e9d29b7079fddf33aa445c7d5') in 0.024944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Jump.wav
+  artifactKey: Guid(026076d371cdc604482a1794035cb5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Jump.wav using Guid(026076d371cdc604482a1794035cb5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf15273f922b3fba54945c4a6598960e') in 0.024308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Jump3.wav
+  artifactKey: Guid(597ee0a5723f6bf46983a722794fe26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Jump3.wav using Guid(597ee0a5723f6bf46983a722794fe26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6a924598d4b81a2a3d5285b49d6fae') in 0.026439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Razor1.wav
+  artifactKey: Guid(363285aa31cfc2f46b3c2f8af2a1dcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Razor1.wav using Guid(363285aa31cfc2f46b3c2f8af2a1dcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83a58c48d6bd53b6f6a51e01dbe52eb') in 0.011062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Warning_Loop1.wav
+  artifactKey: Guid(ecd31749e627d5847a9dada02dc42dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Warning_Loop1.wav using Guid(ecd31749e627d5847a9dada02dc42dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9222f997ef691fcdfc91ea03a31a0c48') in 0.014838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Ring1.wav
+  artifactKey: Guid(8bc7b320da898d449a413d878a2c5647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Ring1.wav using Guid(8bc7b320da898d449a413d878a2c5647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61dd8d797cf6bf95d7f04f4cd7a59044') in 0.025007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Item.wav
+  artifactKey: Guid(b41b1637a28574c4897cc00cadd39efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Item.wav using Guid(b41b1637a28574c4897cc00cadd39efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0fca3a8cc0173891c197336452ac9e') in 0.023753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Computer_search2.wav
+  artifactKey: Guid(3dbf449f2265b5a4cb4dd532a4cbafcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Computer_search2.wav using Guid(3dbf449f2265b5a4cb4dd532a4cbafcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b59c4068593659c5d6a9a07e6a2dbe') in 0.023604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Die_1.wav
+  artifactKey: Guid(45484bfd721ed524e97fa4617b9855f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Die_1.wav using Guid(45484bfd721ed524e97fa4617b9855f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ce2a17ac4658db47a368f168d75662') in 0.023589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Move.wav
+  artifactKey: Guid(302e6693f3313f34b86a9ee262cbdf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/Motion, Item/Move.wav using Guid(302e6693f3313f34b86a9ee262cbdf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3647d44acbfe039a5ec1dbec043180d7') in 0.018676 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

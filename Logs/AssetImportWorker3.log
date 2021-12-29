@@ -1,0 +1,350 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.2f1 (5e2b1e92c7f8) revision 6171422'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1415; Version 2009; 64bit' Language: 'en' Physical Memory: 8046 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Programs\Unity Editors Installations\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Madragora/Unity/MADRAGORA
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+59552
+Successfully changed project path to: D:/Madragora/Unity/MADRAGORA
+D:/Madragora/Unity/MADRAGORA
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 137.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.2f1 (5e2b1e92c7f8)
+[Subsystems] Discovering subsystems at path D:/Programs/Unity Editors Installations/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Madragora/Unity/MADRAGORA/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   NVIDIA
+    VRAM:     4021 MB
+    Driver:   25.21.14.2546
+Initialize mono
+Mono path[0] = 'D:/Programs/Unity Editors Installations/Editor/Data/Managed'
+Mono path[1] = 'D:/Programs/Unity Editors Installations/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Programs/Unity Editors Installations/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programs/Unity Editors Installations/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002573 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 91.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.758 seconds
+Domain Reload Profiling:
+	ReloadAssembly (758ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (618ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (121ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (376ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005245 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 112.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.979 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1980ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1719ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (1220ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (942ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.97 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3892 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (55.8 KB). Loaded Objects now: 4348.
+Memory consumption went from 149.2 MB to 149.2 MB.
+Total: 5.160600 ms (FindLiveObjects: 0.325300 ms CreateObjectMapping: 0.226500 ms MarkObjects: 4.507100 ms  DeleteObjects: 0.100600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 324328.373587 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Error_1.wav
+  artifactKey: Guid(756096cfa8122ca4785c30b7e6762789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Error_1.wav using Guid(756096cfa8122ca4785c30b7e6762789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44f3c898430a0ab00c95905882834ac') in 0.176817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Select_1.wav
+  artifactKey: Guid(520c55d9b978d8c448a47c3bcb70d8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Select_1.wav using Guid(520c55d9b978d8c448a47c3bcb70d8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4932d3a4b4bdf8c19809c18d47322abc') in 0.019391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Pop_error2.wav
+  artifactKey: Guid(6c537a1b835d6b24680d041758149a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Pop_error2.wav using Guid(6c537a1b835d6b24680d041758149a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c82170c0ae4b361d03add47a3264bf1') in 0.015607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Error_2.wav
+  artifactKey: Guid(569dc7a05b19c2e4188dcc1ecb3e4a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Error_2.wav using Guid(569dc7a05b19c2e4188dcc1ecb3e4a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc0e92590641644ef72857c7781a80e') in 0.026388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Gauge_up 2.wav
+  artifactKey: Guid(ed72ff95b5e05ea4390ebb9c8be940ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Gauge_up 2.wav using Guid(ed72ff95b5e05ea4390ebb9c8be940ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7f56b7dd479b3f5d3389f8273aa698') in 0.021590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Pop_up.wav
+  artifactKey: Guid(0a48c0be916c2624fa5fdbf38ea3c4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Note SFX Pack_Vol.1 Wonder FX/UI/Pop_up.wav using Guid(0a48c0be916c2624fa5fdbf38ea3c4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c41c2429dd78c350dd34e6621fba91a') in 0.028967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 756.568817 seconds.
+  path: Assets/Free Orchestral Music Pack/Final Struggle (Boss Theme).wav
+  artifactKey: Guid(14a1cf915de1c2448b200ab123c01445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Orchestral Music Pack/Final Struggle (Boss Theme).wav using Guid(14a1cf915de1c2448b200ab123c01445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aac11459a73346f143a84dd19bd4932') in 0.015345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Free Orchestral Music Pack/Lost Kingdom (Piano Menu).wav
+  artifactKey: Guid(d9e280ca0b9d3ad4f83da6d4defd2c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Orchestral Music Pack/Lost Kingdom (Piano Menu).wav using Guid(d9e280ca0b9d3ad4f83da6d4defd2c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c082501215d387ca7dd9e171f2d7e59f') in 0.027213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.403535 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (2).mp3
+  artifactKey: Guid(051168dd3f18b614cb273426a6521fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (2).mp3 using Guid(051168dd3f18b614cb273426a6521fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5ec24f503e664c5398eb0fc60a9d1f') in 0.033950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (30).mp3
+  artifactKey: Guid(7bfbb5f514fc403418bcc6c931c1ac72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (30).mp3 using Guid(7bfbb5f514fc403418bcc6c931c1ac72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536e31a282a19c67cc6351731abb66b1') in 0.040923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (3).mp3
+  artifactKey: Guid(bd1da6d3b747c154c81af2111651248d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (3).mp3 using Guid(bd1da6d3b747c154c81af2111651248d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1b358168413c5563cabc925107bb25') in 0.032386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (19).mp3
+  artifactKey: Guid(f905b2e0cde208848b9175d5fb96d12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (19).mp3 using Guid(f905b2e0cde208848b9175d5fb96d12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193a9683afb8c0c2c0cb72f941d96505') in 0.037058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (18).mp3
+  artifactKey: Guid(ca4c218175e038643a61d49b953bfceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (18).mp3 using Guid(ca4c218175e038643a61d49b953bfceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b43af9e09f4880e050091982ef8014a') in 0.023224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (36).mp3
+  artifactKey: Guid(0abd1b46f559d534b9ecf345dc1b3e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (36).mp3 using Guid(0abd1b46f559d534b9ecf345dc1b3e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99224a0d228c07fc3b64b42cc46009c') in 0.021388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (40).mp3
+  artifactKey: Guid(90770506cbe244b4892aa112873c7233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (40).mp3 using Guid(90770506cbe244b4892aa112873c7233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0848a299179fb2ddea9a7d767071b8b1') in 0.082446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (27).mp3
+  artifactKey: Guid(e7cfb4d9a5d46bb4d88d914cfe3c5030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (27).mp3 using Guid(e7cfb4d9a5d46bb4d88d914cfe3c5030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f3542e6d12925f0543606969d7f891') in 0.019879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (17).mp3
+  artifactKey: Guid(2285b62fe0e90d045976e2f3248a5016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (17).mp3 using Guid(2285b62fe0e90d045976e2f3248a5016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28efb04f607299e5b87e52dba42f7943') in 0.023152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (32).mp3
+  artifactKey: Guid(9e748a4de002c8a4aa5c5dc4b7a8dee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (32).mp3 using Guid(9e748a4de002c8a4aa5c5dc4b7a8dee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c93e00c688213f24ba3637eb668e12') in 0.024993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (14).mp3
+  artifactKey: Guid(ee60a79c5c5424e45813c06e6e315f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (14).mp3 using Guid(ee60a79c5c5424e45813c06e6e315f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7adf5411c83840a81a3cf5cb1ded42') in 0.018871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (37).mp3
+  artifactKey: Guid(d834da361ac718f40a50b9b24eff160b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (37).mp3 using Guid(d834da361ac718f40a50b9b24eff160b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be5aded7a953b5e52690cf0162e00d6') in 0.018110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (13).mp3
+  artifactKey: Guid(58ceb12f5a5c3114089789a111f60758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (13).mp3 using Guid(58ceb12f5a5c3114089789a111f60758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4fb42192833107ba0ed161134c536db') in 0.027821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (26).mp3
+  artifactKey: Guid(76844c483972f254abd50b49c99a6bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (26).mp3 using Guid(76844c483972f254abd50b49c99a6bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eca6ae4142d850a9186206af375b30e') in 0.036996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (28).mp3
+  artifactKey: Guid(c1f8eca4a80b8f54289cb229d0fc6f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (28).mp3 using Guid(c1f8eca4a80b8f54289cb229d0fc6f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783874b8e20f4999dd67c7cc8a745017') in 0.018640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (34).mp3
+  artifactKey: Guid(98baec781d46fe8439cf133cc4f807ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (34).mp3 using Guid(98baec781d46fe8439cf133cc4f807ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3eda65daa85b7d3d314f577094989cb') in 0.019563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (33).mp3
+  artifactKey: Guid(7f02baf9ae301f24d9f4a8f5d4f1feaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (33).mp3 using Guid(7f02baf9ae301f24d9f4a8f5d4f1feaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c1bcb30a1fe776bc31f32b59012619') in 0.022363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (16).mp3
+  artifactKey: Guid(33f6c71960b53e0449a5cc5c7643195f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (16).mp3 using Guid(33f6c71960b53e0449a5cc5c7643195f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186b5f3fb91620533ed541357373775b') in 0.018599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (6).mp3
+  artifactKey: Guid(2ca9dfc5c87541540b731dc34bfc7bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (6).mp3 using Guid(2ca9dfc5c87541540b731dc34bfc7bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18624bfa2c8afea97fd9ce8d8b63324') in 0.019412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (21).mp3
+  artifactKey: Guid(30dd1c9e0f80b8c41a66e325c4f6884f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (21).mp3 using Guid(30dd1c9e0f80b8c41a66e325c4f6884f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1072a8aaf1562a26a1d24a7d668dd054') in 0.022314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (25).mp3
+  artifactKey: Guid(e3362000d27399941bbe6e7597df97da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (25).mp3 using Guid(e3362000d27399941bbe6e7597df97da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ac24d92794aa82f218f0e87a81c4b9') in 0.022380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (35).mp3
+  artifactKey: Guid(7e8e92f7c31a4a74f9d5d88070b3dbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (35).mp3 using Guid(7e8e92f7c31a4a74f9d5d88070b3dbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f316158e0d2a05fb02e9177f100a25') in 0.013539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game_music/With love from Vertex Studio (39).mp3
+  artifactKey: Guid(55d4633165ab2e14585a6583320876a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/With love from Vertex Studio (39).mp3 using Guid(55d4633165ab2e14585a6583320876a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f92c5648a5820035bceb94432c01cf0') in 0.021606 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
