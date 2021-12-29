@@ -270,6 +270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 110129548}
   - component: {fileID: 110129549}
+  - component: {fileID: 110129550}
   m_Layer: 0
   m_Name: Levels_Ideas_0001s_0005_11
   m_TagString: Untagged
@@ -344,6 +345,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &110129550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110129547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2723fe76b8eeb44a17f26ccd09d9f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 519420028}
+  parallaxEffect: 0.5
 --- !u!1 &215646105
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,6 +533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 347539078}
   - component: {fileID: 347539079}
+  - component: {fileID: 347539080}
   m_Layer: 0
   m_Name: Levels_Ideas_0001s_0008_8
   m_TagString: Untagged
@@ -592,6 +608,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &347539080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347539077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2723fe76b8eeb44a17f26ccd09d9f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 519420028}
+  parallaxEffect: 0.4
 --- !u!4 &356673520 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3848437285193335490, guid: 9a9c49acbe6364d4285e5de2a09765e1, type: 3}
@@ -607,6 +637,7 @@ GameObject:
   m_Component:
   - component: {fileID: 368723927}
   - component: {fileID: 368723928}
+  - component: {fileID: 368723929}
   m_Layer: 0
   m_Name: Levels_Ideas_0001s_0015_2
   m_TagString: Untagged
@@ -681,6 +712,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &368723929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368723926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2723fe76b8eeb44a17f26ccd09d9f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 519420028}
+  parallaxEffect: 1
 --- !u!1 &382834032
 GameObject:
   m_ObjectHideFlags: 0
@@ -965,6 +1010,7 @@ GameObject:
   m_Component:
   - component: {fileID: 506034737}
   - component: {fileID: 506034738}
+  - component: {fileID: 506034739}
   m_Layer: 0
   m_Name: Levels_Ideas_0001s_0001_15
   m_TagString: Untagged
@@ -1039,6 +1085,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &506034739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506034736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2723fe76b8eeb44a17f26ccd09d9f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 519420028}
+  parallaxEffect: 0.5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1243,6 +1303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 607987442}
   - component: {fileID: 607987443}
+  - component: {fileID: 607987444}
   m_Layer: 0
   m_Name: Levels_Ideas_0001s_0003_13
   m_TagString: Untagged
@@ -1317,6 +1378,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &607987444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607987441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2723fe76b8eeb44a17f26ccd09d9f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 519420028}
+  parallaxEffect: 1
 --- !u!1001 &624823017
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1402,6 +1477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 686783260}
   - component: {fileID: 686783261}
+  - component: {fileID: 686783262}
   m_Layer: 0
   m_Name: Levels_Ideas_0001s_0014_3
   m_TagString: Untagged
@@ -1476,6 +1552,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &686783262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686783259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2723fe76b8eeb44a17f26ccd09d9f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 519420028}
+  parallaxEffect: 1
 --- !u!1 &694327617
 GameObject:
   m_ObjectHideFlags: 0
@@ -1486,6 +1576,7 @@ GameObject:
   m_Component:
   - component: {fileID: 694327618}
   - component: {fileID: 694327619}
+  - component: {fileID: 694327620}
   m_Layer: 0
   m_Name: Levels_Ideas_0001s_0011_6
   m_TagString: Untagged
@@ -1560,6 +1651,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &694327620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694327617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2723fe76b8eeb44a17f26ccd09d9f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 519420028}
+  parallaxEffect: 0.8
 --- !u!1001 &742215101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1635,6 +1740,7 @@ GameObject:
   m_Component:
   - component: {fileID: 754690429}
   - component: {fileID: 754690430}
+  - component: {fileID: 754690431}
   m_Layer: 0
   m_Name: Levels_Ideas_0001s_0010_7
   m_TagString: Untagged
@@ -1709,6 +1815,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &754690431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754690428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2723fe76b8eeb44a17f26ccd09d9f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 519420028}
+  parallaxEffect: 0.6
 --- !u!1 &757826808
 GameObject:
   m_ObjectHideFlags: 0
@@ -2175,6 +2295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1396537639}
   - component: {fileID: 1396537640}
+  - component: {fileID: 1396537641}
   m_Layer: 0
   m_Name: Levels_Ideas_0001s_0004_12
   m_TagString: Untagged
@@ -2249,6 +2370,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1396537641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396537638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2723fe76b8eeb44a17f26ccd09d9f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 519420028}
+  parallaxEffect: 0.9
 --- !u!4 &1422379706 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3848437285193335490, guid: 9a9c49acbe6364d4285e5de2a09765e1, type: 3}
@@ -2264,6 +2399,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1451304907}
   - component: {fileID: 1451304908}
+  - component: {fileID: 1451304909}
   m_Layer: 0
   m_Name: Levels_Ideas_0001s_0002_14
   m_TagString: Untagged
@@ -2338,6 +2474,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1451304909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451304906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2723fe76b8eeb44a17f26ccd09d9f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 519420028}
+  parallaxEffect: 0.3
 --- !u!1 &1504614683
 GameObject:
   m_ObjectHideFlags: 0
@@ -2348,6 +2498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1504614684}
   - component: {fileID: 1504614685}
+  - component: {fileID: 1504614686}
   m_Layer: 0
   m_Name: Levels_Ideas_0001s_0013_4
   m_TagString: Untagged
@@ -2422,6 +2573,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1504614686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504614683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2723fe76b8eeb44a17f26ccd09d9f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 519420028}
+  parallaxEffect: 0.8
 --- !u!1 &1508948452
 GameObject:
   m_ObjectHideFlags: 0
@@ -2432,6 +2597,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1508948453}
   - component: {fileID: 1508948454}
+  - component: {fileID: 1508948455}
   m_Layer: 0
   m_Name: Levels_Ideas_0001s_0006_10
   m_TagString: Untagged
@@ -2506,6 +2672,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1508948455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508948452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2723fe76b8eeb44a17f26ccd09d9f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 519420028}
+  parallaxEffect: 0.5
 --- !u!1 &1523431508
 GameObject:
   m_ObjectHideFlags: 0
@@ -2717,6 +2897,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1767354068}
   - component: {fileID: 1767354069}
+  - component: {fileID: 1767354070}
   m_Layer: 0
   m_Name: Levels_Ideas_0001s_0016_1
   m_TagString: Untagged
@@ -2791,6 +2972,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1767354070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767354067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2723fe76b8eeb44a17f26ccd09d9f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 519420028}
+  parallaxEffect: 1
 --- !u!1 &1896930540
 GameObject:
   m_ObjectHideFlags: 0
@@ -2801,6 +2996,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1896930541}
   - component: {fileID: 1896930542}
+  - component: {fileID: 1896930543}
   m_Layer: 0
   m_Name: Levels_Ideas_0001s_0000_16
   m_TagString: Untagged
@@ -2875,6 +3071,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1896930543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896930540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2723fe76b8eeb44a17f26ccd09d9f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 519420028}
+  parallaxEffect: 0.6
 --- !u!1001 &1920707131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2950,6 +3160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1963010577}
   - component: {fileID: 1963010578}
+  - component: {fileID: 1963010579}
   m_Layer: 0
   m_Name: Levels_Ideas_0001s_0012_5
   m_TagString: Untagged
@@ -3024,6 +3235,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1963010579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963010576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2723fe76b8eeb44a17f26ccd09d9f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 519420028}
+  parallaxEffect: 0.7
 --- !u!1 &1963448682
 GameObject:
   m_ObjectHideFlags: 0
