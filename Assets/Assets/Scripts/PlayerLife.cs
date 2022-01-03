@@ -9,26 +9,58 @@ public class PlayerLife : MonoBehaviour
     private Animator animator;
     public static bool isDead = false;
 
+    //adding player HealthBar logic 
+    public int maxHealth = 100;
+    public int currentHealth;
+    public HealthBar healthBar;
+
     // Start is called before the first frame update
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();    
+        animator = GetComponent<Animator>();
+
+        //Health bar logic
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void Update()
+    {
+        
+    }
+
+    
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Trap"))
+        {
+            TakeDamage(20);
+
+        }
+    }
+
+    void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+
+        GetComponent<Rigidbody2D>().AddForce((transform.up * 8 + transform.right * 1), ForceMode2D.Impulse);
+
+        animator.SetBool("damage", true);
+
+        healthBar.SetHealth(currentHealth);
+        if (currentHealth <= 0)
         {
             Die();
         }
     }
 
-    private void Die()
+    void Die()
     {
         rb.bodyType = RigidbodyType2D.Static;
         animator.SetTrigger("death");
         isDead = true;
+       
     }
     
     private void RestartLevel()

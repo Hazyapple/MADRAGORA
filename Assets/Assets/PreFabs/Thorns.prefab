@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 989245204288419422}
   - component: {fileID: 989245204288419409}
   - component: {fileID: 989245204288419408}
+  - component: {fileID: 781223007852497514}
   m_Layer: 0
   m_Name: Thorns
   m_TagString: Trap
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 989245204288419411}
   m_LocalRotation: {x: -0, y: -0, z: -0.23905887, w: 0.97100514}
   m_LocalPosition: {x: -2.56, y: -2.53, z: 0}
-  m_LocalScale: {x: 0.32825, y: 0.32825, z: 0.32825}
+  m_LocalScale: {x: 0.1800657, y: 0.26177937, z: 0.32825}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -111,3 +112,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.8178804, y: 1.4204063}
   m_EdgeRadius: 0
+--- !u!95 &781223007852497514
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989245204288419411}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 42e0ac9c618f1de44a926c646460b02a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
