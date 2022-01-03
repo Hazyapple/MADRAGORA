@@ -44,7 +44,7 @@ public class PlayerLife : MonoBehaviour
     {
         currentHealth -= damage;
 
-        GetComponent<Rigidbody2D>().AddForce((transform.up * 8 + transform.right * 1), ForceMode2D.Impulse);
+        GetComponent<Rigidbody2D>().AddForce((transform.up * 4 + transform.right * 1), ForceMode2D.Impulse);
 
         animator.SetBool("damage", true);
 

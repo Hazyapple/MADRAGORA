@@ -43,7 +43,7 @@ private void Update()
         if (Input.GetKey(KeyCode.LeftArrow) && !PlayerLife.isDead)
 
         {
-            transform.Translate(new Vector3(-2, 0, 0) * Time.deltaTime);
+            transform.Translate(new Vector3(-4, 0, 0) * Time.deltaTime);
             sprite.flipX = true;
         }
 
@@ -51,7 +51,7 @@ private void Update()
 
         if (Input.GetKey(KeyCode.RightArrow) && !PlayerLife.isDead)
         {
-            transform.Translate(new Vector3(2, 0, 0) * Time.deltaTime);
+            transform.Translate(new Vector3(4, 0, 0) * Time.deltaTime);
             sprite.flipX = false;
         }
            
