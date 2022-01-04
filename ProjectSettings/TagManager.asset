@@ -62,3 +62,6 @@ TagManager:
   - name: Thorns
     uniqueID: 834212303
     locked: 0
+  - name: Slime
+    uniqueID: 2859135199
+    locked: 0
