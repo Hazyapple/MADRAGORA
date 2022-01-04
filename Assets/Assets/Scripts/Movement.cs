@@ -8,7 +8,7 @@ public class Movement : MonoBehaviour
     [SerializeField] private bool isGrounded = false;
     private Animator animator;
     private SpriteRenderer sprite;
-
+    public bool isFlipped = false;
 
 
 
@@ -45,6 +45,7 @@ private void Update()
         {
             transform.Translate(new Vector3(-4, 0, 0) * Time.deltaTime);
             sprite.flipX = true;
+            isFlipped = true;
         }
 
 
@@ -53,6 +54,7 @@ private void Update()
         {
             transform.Translate(new Vector3(4, 0, 0) * Time.deltaTime);
             sprite.flipX = false;
+            isFlipped = false;
         }
            
  
