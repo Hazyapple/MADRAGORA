@@ -36,7 +36,7 @@ public class CollectibleItem : MonoBehaviour
                 Mayapples++;
                 colletedIds.Add(collision.gameObject.GetInstanceID());
                 Debug.Log("Mayapples: " + Mayapples);
-                MayapplesText.text = "Mayapples: " + Mayapples;
+                MayapplesText.text = this.Mayapples.ToString();
             }
         }
 
@@ -67,7 +67,7 @@ public class CollectibleItem : MonoBehaviour
 
     private void updateUI()
     {
-        HexBagsText.text = "Hexbags: " + this.Hexbags;
+        HexBagsText.text = this.Hexbags.ToString();
     }
     public void useHexBag()
     {
