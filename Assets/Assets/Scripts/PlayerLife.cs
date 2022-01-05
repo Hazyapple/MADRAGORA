@@ -39,6 +39,11 @@ public class PlayerLife : MonoBehaviour
 
         }
 
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            TakeDamage(40);
+        }
+
         if (collision.gameObject.CompareTag("EvilEye"))
         {
             RestoreHealth(10);
