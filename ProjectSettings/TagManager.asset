@@ -11,6 +11,7 @@ TagManager:
   - Enemy
   - Slime
   - EvilEye
+  - HexFoxPlant
   layers:
   - Default
   - TransparentFX
