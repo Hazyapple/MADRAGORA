@@ -43,6 +43,11 @@ public class HexFoxScript : MonoBehaviour
 
             destroySelf();
         }
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        }
     }
 
     void createHexBag()

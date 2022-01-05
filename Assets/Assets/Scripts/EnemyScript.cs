@@ -23,6 +23,14 @@ public class EnemyScript : MonoBehaviour
 
     }
 
+
+     void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("HexFoxPlant"))
+        {
+            Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        }
+    }
     // Update is called once per frame
     void Update()
     {
@@ -61,6 +69,8 @@ public class EnemyScript : MonoBehaviour
                 rb2d.velocity = new Vector2(-moveSpeed, 0);
                 sprite.flipX = false;
             }
+
+            
            
         }
 

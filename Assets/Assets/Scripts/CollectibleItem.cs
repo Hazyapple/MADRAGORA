@@ -5,15 +5,24 @@ using UnityEngine.UI;
 
 public class CollectibleItem : MonoBehaviour
 {
-    private int Mayapples = 0;
+    private int _hexbags;
 
-    private int Hexbags = 0;
+    private int Mayapples = 0;
+    private int Hexbags
+    {
+        get => this._hexbags;
+        set
+        {
+            this._hexbags = value;
+            updateUI();
+        }
+    }
 
     public FlaskScript flaskscript;
 
 
     [SerializeField] private Text MayapplesText;
-    [SerializeField] private Text HaxBagsText;
+    [SerializeField] private Text HexBagsText;
 
     private List<int> colletedIds = new List<int>();
 
@@ -29,7 +38,6 @@ public class CollectibleItem : MonoBehaviour
                 Debug.Log("Mayapples: " + Mayapples);
                 MayapplesText.text = "Mayapples: " + Mayapples;
             }
-
         }
 
         if (collision.gameObject.CompareTag("Slime"))
@@ -47,12 +55,23 @@ public class CollectibleItem : MonoBehaviour
                 Hexbags++;
                 colletedIds.Add(collision.gameObject.GetInstanceID());
                 Debug.Log("HexBagCollected: " + Hexbags);
-                HaxBagsText.text = "Hexbags: " + Hexbags;
             }
 
         }
+    }
 
+    public bool hasHaxBags()
+    {
+        return this.Hexbags > 0;
+    }
 
+    private void updateUI()
+    {
+        HexBagsText.text = "Hexbags: " + this.Hexbags;
+    }
+    public void useHexBag()
+    {
+        this.Hexbags--;
     }
 }
 

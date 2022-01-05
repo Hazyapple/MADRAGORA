@@ -7,13 +7,14 @@ public class Attack : MonoBehaviour
     public GameObject hexbag;
     public SpriteRenderer sprite;
     private Movement movement;
-
+    private CollectibleItem collectibleItem;
 
     // Start is called before the first frame update
     void Start()
     {
         movement = GetComponent<Movement>();
         sprite = GetComponent<SpriteRenderer>();
+        collectibleItem = GetComponent<CollectibleItem>();
     }
 
     // Update is called once per frame
@@ -22,25 +23,22 @@ public class Attack : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X))
         {
             ThrowHexBag();
-           
         }
 }
     void ThrowHexBag()
     {
-        float direction = 1;
-
-        GameObject hexbagInstance = Instantiate(hexbag, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
-
-        if (movement.isFlipped)
+        if (collectibleItem.hasHaxBags())
         {
-            direction = -1;
-        }
-        else
-        {
-            direction = 1;
+            float direction = movement.isFlipped ? -1 : 1;
+
+            GameObject hexbagInstance = Instantiate(hexbag, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
+
+            hexbagInstance.GetComponent<Rigidbody2D>().AddForce(new Vector2(3f * direction, 3f), ForceMode2D.Impulse);
+            Physics2D.IgnoreCollision(hexbagInstance.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+
+            collectibleItem.useHexBag();
         }
 
-        hexbagInstance.GetComponent<Rigidbody2D>().AddForce(new Vector2(3f * direction, 3f), ForceMode2D.Impulse);
-        Physics2D.IgnoreCollision(hexbagInstance.GetComponent<Collider2D>(), GetComponent<Collider2D>());
     }
+
 }

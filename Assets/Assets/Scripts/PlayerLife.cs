@@ -9,6 +9,7 @@ public class PlayerLife : MonoBehaviour
     private Animator animator;
     public static bool isDead = false;
 
+
     //adding player HealthBar logic 
     public int maxHealth = 100;
     public int currentHealth;
