@@ -22,6 +22,13 @@ public class HexScript : MonoBehaviour
             GetComponent<Renderer>().enabled = false;
             Invoke("destroySelf", 1f);
         }
+
+       else 
+        {
+            this.position = transform.position;
+            GetComponent<Renderer>().enabled = false;
+            Invoke("destroySelf", 3f);
+        }
     }
 
     void createSlime()

@@ -12,6 +12,7 @@ TagManager:
   - Slime
   - EvilEye
   - HexFoxPlant
+  - HexBagLoot
   layers:
   - Default
   - TransparentFX
