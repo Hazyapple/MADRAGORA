@@ -26,6 +26,8 @@ public class CollectibleItem : MonoBehaviour
 
     private List<int> colletedIds = new List<int>();
 
+    public GameObject flaskOfGlory;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Mayapple"))
@@ -45,6 +47,12 @@ public class CollectibleItem : MonoBehaviour
             Destroy(collision.gameObject);
 
             flaskscript.IncreaseFill(10);
+
+           if(flaskscript.currentFill == 100)
+            {
+                Instantiate(flaskOfGlory, transform.position, Quaternion.identity);
+                flaskscript.SetFlaskFill(0);
+            }
         }
 
         if (collision.gameObject.CompareTag("HexBagLoot"))
