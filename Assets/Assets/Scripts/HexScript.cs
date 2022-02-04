@@ -7,16 +7,35 @@ public class HexScript : MonoBehaviour
 
     public GameObject slime;
     public GameObject evileye;
+    public GameObject particlepoof;
+    public GameObject particleButt;
+    
+  
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-         if (!collision.gameObject.CompareTag("Enemy"))
+       
+       
+          Instantiate(particlepoof, transform.position, Quaternion.identity);
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Instantiate(particleButt, transform.position, Quaternion.identity);
+        }
+
+        if (!collision.gameObject.CompareTag("Enemy"))
          {
+
             GetComponent<Renderer>().enabled = false;
+
             Invoke("destroySelf", 3f);
-         }
+                  
+        }
+
+        
     }
 
+    
     void createSlime()
     {
         Instantiate(slime, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);

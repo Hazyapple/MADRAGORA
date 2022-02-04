@@ -9,6 +9,7 @@ public class PlayerLife : MonoBehaviour
     private Animator animator;
     public static bool isDead = false;
 
+    public GameObject particleblood;
 
     //adding player HealthBar logic 
     public int maxHealth = 100;
@@ -37,12 +38,14 @@ public class PlayerLife : MonoBehaviour
         if (collision.gameObject.CompareTag("Trap"))
         {
             TakeDamage(20);
+            Instantiate(particleblood, transform.position, Quaternion.identity);
 
         }
 
         if (collision.gameObject.CompareTag("Enemy"))
         {
             TakeDamage(40);
+            Instantiate(particleblood, transform.position, Quaternion.identity);
         }
 
         if (collision.gameObject.CompareTag("EvilEye"))
