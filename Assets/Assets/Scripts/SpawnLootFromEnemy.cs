@@ -8,11 +8,16 @@ public class SpawnLootFromEnemy : MonoBehaviour
     public GameObject slime;
     public GameObject evileye;
     private bool isSpawned = false;
+    public GameObject particleButt;
 
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("HexBag") && !this.isSpawned)
         {
+           
+            
+            Instantiate(particleButt, transform.position, Quaternion.identity);
+            
             Destroy(collision.gameObject);
 
             Invoke("createSlime", 0.2f);

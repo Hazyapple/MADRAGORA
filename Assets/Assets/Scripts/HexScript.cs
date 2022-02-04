@@ -8,7 +8,7 @@ public class HexScript : MonoBehaviour
     public GameObject slime;
     public GameObject evileye;
     public GameObject particlepoof;
-    public GameObject particleButt;
+    
     
   
 
@@ -18,10 +18,7 @@ public class HexScript : MonoBehaviour
        
           Instantiate(particlepoof, transform.position, Quaternion.identity);
 
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            Instantiate(particleButt, transform.position, Quaternion.identity);
-        }
+      
 
         if (!collision.gameObject.CompareTag("Enemy"))
          {
