@@ -2719,3 +2719,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8503.331839 seconds.
+  path: Assets/Assets/PreFabs/L mushroom .prefab
+  artifactKey: Guid(bb5486bf6859dce45a075d33bdef93a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PreFabs/L mushroom .prefab using Guid(bb5486bf6859dce45a075d33bdef93a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c6e4bce89261923304089d2108ccb4') in 2.228923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets/PreFabs/M mushroom .prefab
+  artifactKey: Guid(af149cc07efc3124d8804c7ed8b8dae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PreFabs/M mushroom .prefab using Guid(af149cc07efc3124d8804c7ed8b8dae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e411a8ca1cfa8615dc5f0460923aa9f5') in 0.036950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets/PreFabs/S mushroom .prefab
+  artifactKey: Guid(936f118ee19039244a760d1c07aff52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PreFabs/S mushroom .prefab using Guid(936f118ee19039244a760d1c07aff52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4870f70793db90c509a92d564d958afb') in 0.060262 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
