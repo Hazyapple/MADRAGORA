@@ -14,12 +14,44 @@ public class EnemyScript : MonoBehaviour
 
     Rigidbody2D rb2d;
 
+    // close to edge code 
+    [SerializeField]
+    Transform castPos;  //subcompenent of game object gizmo CastPos
+    [SerializeField]
+    Transform castPos2;
+    [SerializeField]
+    float baseCastDist;
+
+    const string RIGHT = "right";
+    const string LEFT = "left";
+
+    string facingDirecrion;
+
+    [SerializeField] public bool isGroundedLeft;
+
+    [SerializeField] public bool isGroundedRight;
+
+    [SerializeField] public bool isPlayerToTheRight;
+
+    Vector3 baseScale;
+
     // Start is called before the first frame update
     void Start()
     {
+        
+       
+
         rb2d = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+
+
+        //code to near edge 
+        baseScale = transform.localScale;
+        facingDirecrion = sprite.name;
+
+
+
 
     }
 
@@ -31,14 +63,25 @@ public class EnemyScript : MonoBehaviour
             Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
         }
     }
+
+    private void FixedUpdate()
+    {
+        //change direction of sprite when near edge
+
+        IsNearEdge();
+     
+ 
+    }
     // Update is called once per frame
     void Update()
     {
         //distance to player
         float distToPlayer = Vector2.Distance(transform.position, player.position);
+        isPlayerToTheRight = transform.position.x < player.position.x;
 
-        if (distToPlayer < agroRange)
+        if (distToPlayer < agroRange && (isGroundedLeft || isPlayerToTheRight) && (isGroundedRight || !isPlayerToTheRight))
         {
+            
             //code to chase player
             ChasePlayer();
             animator.SetBool("attack", true);
@@ -79,4 +122,53 @@ public class EnemyScript : MonoBehaviour
             rb2d.velocity = new Vector2(0, 0); 
         }
     }
+
+    void IsNearEdge()
+    {
+        bool val = true;
+
+        //define the cast distance from left to right
+
+        float castDist = baseCastDist;
+
+
+        //determine the target destination based on cast distance
+
+        Vector3 targetPos = castPos.position;
+        Vector3 targetPos2 = castPos2.position;
+
+        targetPos.y -= baseCastDist;
+        targetPos2.y -= baseCastDist;
+
+        Debug.DrawLine(castPos.position, targetPos, Color.red);
+        Debug.DrawLine(castPos2.position, targetPos2, Color.red); //shoots a ray downwords
+
+        if (Physics2D.Linecast(castPos.position, targetPos, 1 << LayerMask.NameToLayer("Ground")))
+
+        {
+            val = false;
+            isGroundedLeft = true;
+        }
+        else
+        {
+            val = true;
+            this.isGroundedLeft = false;
+            
+
+        }
+
+        if (Physics2D.Linecast(castPos2.position, targetPos2, 1 << LayerMask.NameToLayer("Ground")))
+
+        {
+            val = false;
+            isGroundedRight = true;
+        }
+        else
+        {
+            val = true;
+            this.isGroundedRight = false;
+            
+        }
+    }
+        
 }
