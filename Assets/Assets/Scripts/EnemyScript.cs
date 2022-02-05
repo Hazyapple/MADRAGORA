@@ -22,10 +22,6 @@ public class EnemyScript : MonoBehaviour
     [SerializeField]
     float baseCastDist;
 
-    const string RIGHT = "right";
-    const string LEFT = "left";
-
-    string facingDirecrion;
 
     [SerializeField] public bool isGroundedLeft;
 
@@ -48,7 +44,6 @@ public class EnemyScript : MonoBehaviour
 
         //code to near edge 
         baseScale = transform.localScale;
-        facingDirecrion = sprite.name;
 
 
 

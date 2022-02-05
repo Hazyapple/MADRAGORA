@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5894723894718426859}
   - component: {fileID: 6289374004341003484}
   - component: {fileID: 1807111957676777469}
+  - component: {fileID: -6622330355469557538}
   m_Layer: 0
   m_Name: FlaskOfGlory
   m_TagString: FlaskOfGlory
@@ -133,3 +134,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-6622330355469557538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5894723894718426856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b954ab87d74bca4ba6fc19444a7426e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bigPoofVolcano: {fileID: 7919236188536425308, guid: c07d73f0e5b19c345bffe7b80ba4f8ab, type: 3}
