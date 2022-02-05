@@ -9,6 +9,8 @@ public class Attack : MonoBehaviour
     private Movement movement;
     private CollectibleItem collectibleItem;
 
+    public GameObject flaskofglory;        //
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +26,12 @@ public class Attack : MonoBehaviour
         {
             ThrowHexBag();
         }
-}
+
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            ThrowFlaskOfGlory();
+        }
+    }
     void ThrowHexBag()
     {
         if (collectibleItem.hasHaxBags())
@@ -40,5 +47,21 @@ public class Attack : MonoBehaviour
         }
 
     }
+
+    void ThrowFlaskOfGlory()
+    {
+        if(collectibleItem.hasFlasks())
+        {
+            float direction = movement.isFlipped ? -1 : 1;
+
+            GameObject flaskofgloryInstance = Instantiate(flaskofglory, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
+
+            flaskofgloryInstance.GetComponent<Rigidbody2D>().AddForce(new Vector2(3f * direction, 3f), ForceMode2D.Impulse);
+            Physics2D.IgnoreCollision(flaskofgloryInstance.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+
+            collectibleItem.useFlaskOfGlory();
+        }
+    }
+  
 
 }
