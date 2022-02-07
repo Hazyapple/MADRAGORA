@@ -7,7 +7,7 @@ public class backToMenu : MonoBehaviour
 {
     public void BackToMenu()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 }
 

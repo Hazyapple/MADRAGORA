@@ -68,6 +68,7 @@ public class PlayerLife : MonoBehaviour
         if (currentHealth <= 0)
         {
             Die();
+            Invoke("GameOverScreen", 1f);
         }
     }
 
@@ -76,21 +77,23 @@ public class PlayerLife : MonoBehaviour
         rb.bodyType = RigidbodyType2D.Static;
         animator.SetTrigger("death");
         isDead = true;
+        
 
     }
 
-    private void RestartLevel()
+    private void GameOverScreen()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        isDead = false;
-    }
+        SceneManager.LoadScene(2);
 
-    private void RestoreHealth(int health)
+        isDead = false;
+
+    }
+    public void RestoreHealth(int health)
     {
         currentHealth += health;
         healthBar.SetHealth(currentHealth);
 
-        //aniamtor.SetBppl("healed", true);
+        //aniamtor.SetBool("healed", true);
     }
     
 }
