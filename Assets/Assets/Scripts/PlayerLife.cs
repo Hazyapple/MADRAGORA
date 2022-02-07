@@ -48,6 +48,13 @@ public class PlayerLife : MonoBehaviour
             Instantiate(particleblood, transform.position, Quaternion.identity);
         }
 
+        if (collision.gameObject.CompareTag("EdgeScreenDeath"))
+        {
+            TakeDamage(40);
+            Instantiate(particleblood, transform.position, Quaternion.identity);
+
+        }
+
         if (collision.gameObject.CompareTag("EvilEye"))
         {
             RestoreHealth(10);

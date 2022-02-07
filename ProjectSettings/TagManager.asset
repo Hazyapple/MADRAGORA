@@ -15,6 +15,7 @@ TagManager:
   - HexBagLoot
   - FlaskOfGlory
   - Volcano
+  - EdgeScreenDeath
   layers:
   - Default
   - TransparentFX
