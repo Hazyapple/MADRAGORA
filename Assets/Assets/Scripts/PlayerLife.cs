@@ -16,15 +16,21 @@ public class PlayerLife : MonoBehaviour
     public int currentHealth;
     public HealthBar healthBar;
 
+    public bool isFullyHealed;
+
     // Start is called before the first frame update
     private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+       
+
+            rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
         //Health bar logic
-        currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
+
+        currentHealth = PlayerPrefs.GetInt ("PlayerCurrentHealth");        //PlayerPrefab logic
+
+        healthBar.SetHealth(currentHealth);
     }
 
     private void Update()
@@ -57,15 +63,27 @@ public class PlayerLife : MonoBehaviour
 
         if (collision.gameObject.CompareTag("EvilEye"))
         {
-            RestoreHealth(10);
-
-            Destroy(collision.gameObject);
+            if ((currentHealth !=100)  == true)                   // isFullyHealed - healing with Evileye with not exceed player's max health. 
+            {
+                isFullyHealed = false;
+                RestoreHealth(10);
+                Destroy(collision.gameObject);
+            }             
+             else
+            {
+                isFullyHealed = true;
+         
+                Destroy(collision.gameObject);
+            }
+           
         }
     }
 
     void TakeDamage(int damage)
     {
         currentHealth -= damage;
+
+        PlayerPrefs.SetInt("PlayerCurrentHealth", currentHealth);    //PlayerPrefab logic
 
         GetComponent<Rigidbody2D>().AddForce((transform.up * 4 + transform.right * 1), ForceMode2D.Impulse);
 
@@ -98,6 +116,9 @@ public class PlayerLife : MonoBehaviour
     public void RestoreHealth(int health)
     {
         currentHealth += health;
+
+        PlayerPrefs.SetInt("PlayerCurrentHealth", currentHealth);    //PlayerPrefab logic
+
         healthBar.SetHealth(currentHealth);
 
         //aniamtor.SetBool("healed", true);

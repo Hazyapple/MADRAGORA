@@ -23,7 +23,10 @@ public class VolcanoBehavior : MonoBehaviour
   
     private void CompleteLevel()
     {
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+        PlayerPrefs.GetInt("PlayerCurrentHealth");
     }
 }
 

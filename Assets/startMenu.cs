@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class startMenu : MonoBehaviour
 {
+    
+
     private void Start()
     {
         
@@ -14,6 +16,11 @@ public class startMenu : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene(4);
+
+        PlayerPrefs.SetInt("PlayerCurrentHealth", 100);
+
+        
+
     }
 
 }
