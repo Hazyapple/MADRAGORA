@@ -102,6 +102,7 @@ public class PlayerLife : MonoBehaviour
         rb.bodyType = RigidbodyType2D.Static;
         animator.SetTrigger("death");
         isDead = true;
+        currentHealth = 0;
         
 
     }
