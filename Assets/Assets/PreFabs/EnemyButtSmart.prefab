@@ -224,6 +224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slime: {fileID: 5468739444170929832, guid: a34439f80766d264fb5fea77f5094c65, type: 3}
   evileye: {fileID: 7377603510511247378, guid: 7bf5524cfc26bdf4da3941110524e30d, type: 3}
+  mayapple: {fileID: 3848437285193335503, guid: 9a9c49acbe6364d4285e5de2a09765e1, type: 3}
   particleButt: {fileID: 73114829137408656, guid: e122b313fb4b75349a0e6f0d60ef69ee, type: 3}
 --- !u!1 &5798052334856523069
 GameObject:

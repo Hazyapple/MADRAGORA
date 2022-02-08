@@ -170,4 +170,5 @@ MonoBehaviour:
   player: {fileID: 0}
   agroRange: 2
   moveSpeed: 2
+  mayapple: {fileID: 3848437285193335503, guid: 9a9c49acbe6364d4285e5de2a09765e1, type: 3}
   hexbag: {fileID: 4989090271599861714, guid: 7ce7c04a75e5b75419a6037d024194df, type: 3}

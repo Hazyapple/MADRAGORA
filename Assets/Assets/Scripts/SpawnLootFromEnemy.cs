@@ -7,6 +7,7 @@ public class SpawnLootFromEnemy : MonoBehaviour
 
     public GameObject slime;
     public GameObject evileye;
+    public GameObject mayapple;          // mayhexbag logic
     private bool isSpawned = false;
     public GameObject particleButt;
 
@@ -26,6 +27,20 @@ public class SpawnLootFromEnemy : MonoBehaviour
             Invoke("destroySelf", 0.4f);
             isSpawned = true;
         }
+
+        if (collision.gameObject.CompareTag("MayHexBag") && !this.isSpawned)      // mayhexbag logic
+        {
+
+
+            Instantiate(particleButt, transform.position, Quaternion.identity);
+
+            Invoke("createSlime", 0.2f);
+            Invoke("createEvileye", 0.3f);
+            Invoke("createMayapple", 0.4f);
+
+            Invoke("destroySelf", 0.4f);
+            isSpawned = true;
+        }
     }
 
     void createSlime()
@@ -40,6 +55,11 @@ public class SpawnLootFromEnemy : MonoBehaviour
     void createEvileye()
     {
         Instantiate(evileye, new Vector2(transform.position.x + 0.2f, transform.position.y), Quaternion.identity);
+    }
+
+    void createMayapple()                                                   //mayhexbag logic
+    {
+        Instantiate(mayapple, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
     }
     // Start is called before the first frame update
     void Start()

@@ -8,9 +8,10 @@ public class HexFoxScript : MonoBehaviour
     [SerializeField] Transform player;
     [SerializeField] float agroRange;
     [SerializeField] float moveSpeed;
+    public GameObject mayapple;                       // mayhexbag logic
 
 
-    
+
     public GameObject hexbag;    //prefab hexbag collectible item
 
     private Vector3 position;
@@ -44,6 +45,20 @@ public class HexFoxScript : MonoBehaviour
             destroySelf();
         }
 
+        if (collision.gameObject.CompareTag("MayHexBag"))                        //mayhexbag logic
+            {
+
+            this.position = transform.position;
+
+            Invoke("createHexBag", 0.2f);
+
+            Invoke("createMayapple", 0.3f);
+
+            GetComponent<Renderer>().enabled = false;
+
+            Invoke("destroySelf", 0.4f);
+        }
+
         if (collision.gameObject.CompareTag("Enemy"))
         {
             Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
@@ -53,6 +68,11 @@ public class HexFoxScript : MonoBehaviour
     void createHexBag()
     {
         Instantiate(hexbag, new Vector2(this.position.x, transform.position.y), Quaternion.identity);
+    }
+
+    void createMayapple()                                                   //mayhexbag logic
+    {
+        Instantiate(mayapple, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
     }
 
     void destroySelf()

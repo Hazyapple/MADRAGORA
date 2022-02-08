@@ -16,6 +16,7 @@ TagManager:
   - FlaskOfGlory
   - Volcano
   - EdgeScreenDeath
+  - MayHexBag
   layers:
   - Default
   - TransparentFX
@@ -76,4 +77,7 @@ TagManager:
     locked: 0
   - name: Particle sysem
     uniqueID: 2010292847
+    locked: 0
+  - name: Mayapple
+    uniqueID: 1701078113
     locked: 0
