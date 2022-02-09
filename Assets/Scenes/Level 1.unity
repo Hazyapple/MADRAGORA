@@ -123,25 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &1115774 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4989090271599861714, guid: 4a0a4d2967f8975439299fd040e34c00, type: 3}
-  m_PrefabInstance: {fileID: 3463175986302240428}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1115781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70fab4d79834968429f9a5e73a00bf88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isCollided: 0
-  bigPoofVolcano: {fileID: 0}
 --- !u!4 &44064420 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 644940545651005412, guid: 936f118ee19039244a760d1c07aff52b, type: 3}
@@ -4674,7 +4655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7182e185107690b47b2f5914ea684908, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MayapplesText: {fileID: 2004866102}
+  mayapples: {fileID: 0}
   maxMayapples: 10
   currentMayapples: 0
 --- !u!1001 &1172486897
@@ -7544,8 +7525,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexbag: {fileID: 4989090271599861714, guid: 0390f6ae83cad394bbe265ccc44a2660, type: 3}
-  sprite: {fileID: 0}
   flaskofglory: {fileID: 5894723894718426856, guid: 7beb3024f8247284f955f71f9e7c7375, type: 3}
+  giantmayhexbag: {fileID: 4989090271599861714, guid: 4a0a4d2967f8975439299fd040e34c00, type: 3}
 --- !u!1001 &1975944906
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -21,7 +21,7 @@ public class MayHexBagScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             isCollided = true;
-            Invoke("DestroyThisGiantBag", 5f);
+            Invoke("DestroyThisGiantBag", 4f);
             PoofOnVolcano();
         }
 
@@ -32,7 +32,7 @@ public class MayHexBagScript : MonoBehaviour
 
         if (!isCollided)
         {
-            Invoke("DestroyThisGiantBag", 0.5f);
+            Invoke("DestroyThisGiantBag", 2f);
             PoofOnVolcano();
         }
 

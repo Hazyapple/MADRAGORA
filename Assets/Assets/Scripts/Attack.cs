@@ -5,17 +5,20 @@ using UnityEngine;
 public class Attack : MonoBehaviour
 {
     public GameObject hexbag;
-    public SpriteRenderer sprite;
+
+  
     private Movement movement;
     private CollectibleItem collectibleItem;
 
     public GameObject flaskofglory;        //
 
+    public GameObject giantmayhexbag;                      //
+
     // Start is called before the first frame update
     void Start()
     {
         movement = GetComponent<Movement>();
-        sprite = GetComponent<SpriteRenderer>();
+     
         collectibleItem = GetComponent<CollectibleItem>();
     }
 
@@ -31,6 +34,12 @@ public class Attack : MonoBehaviour
         {
             ThrowFlaskOfGlory();
         }
+
+        if(Input.GetKeyDown(KeyCode.C))
+        {
+            ThrowGiantMayHexBag();
+        }
+
     }
     void ThrowHexBag()
     {
@@ -62,6 +71,26 @@ public class Attack : MonoBehaviour
             collectibleItem.useFlaskOfGlory();
         }
     }
-  
+
+    void ThrowGiantMayHexBag()
+    {
+        if (collectibleItem.hasGiantMayHexbag())
+        {
+            float direction = movement.isFlipped ? -1 : 1;
+            
+            GameObject giantmayhexbagInstance = Instantiate(giantmayhexbag, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
+
+            giantmayhexbagInstance.GetComponent<Rigidbody2D>().AddForce(new Vector2(4f * direction, 4f), ForceMode2D.Impulse);
+            Physics2D.IgnoreCollision(giantmayhexbagInstance.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+
+            collectibleItem.useGiantMayHexBag();
+
+        }
+
+    }
+
+
+
+
 
 }
