@@ -11,17 +11,19 @@ public class MayHexBagScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Invoke("DestroyThisGiantBag", 5f);
+
         if (collision.gameObject.CompareTag("HexFoxPlant"))
         {
             isCollided = true;
-            Invoke("DestroyThisGiantBag", 3f);
+           // Invoke("DestroyThisGiantBag", 3f);
             PoofOnVolcano();
         }
 
         if (collision.gameObject.CompareTag("Enemy"))
         {
             isCollided = true;
-            Invoke("DestroyThisGiantBag", 4f);
+           // Invoke("DestroyThisGiantBag", 4f);
             PoofOnVolcano();
         }
 
@@ -32,7 +34,7 @@ public class MayHexBagScript : MonoBehaviour
 
         if (!isCollided)
         {
-            Invoke("DestroyThisGiantBag", 2f);
+           // Invoke("DestroyThisGiantBag", 2f);
             PoofOnVolcano();
         }
 
@@ -40,7 +42,9 @@ public class MayHexBagScript : MonoBehaviour
 
     void DestroyThisGiantBag()
     {
+        PoofOnVolcano();
         Destroy(this.gameObject);
+        
     }
 
     void PoofOnVolcano()
