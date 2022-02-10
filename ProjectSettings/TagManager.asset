@@ -64,8 +64,14 @@ TagManager:
   - name: Player
     uniqueID: 1720428377
     locked: 0
+  - name: Terrian (rectangle)
+    uniqueID: 247955287
+    locked: 0
   - name: Moving Platforn
     uniqueID: 2642624661
+    locked: 0
+  - name: Terrian (Pole)
+    uniqueID: 526873327
     locked: 0
   - name: Mayapple
     uniqueID: 651147921
