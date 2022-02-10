@@ -5,7 +5,9 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     public float moveSpeed = 10f;
-    [SerializeField] private bool isGrounded = false;
+    [SerializeField] private bool isGrounded;
+    [SerializeField] private bool isAnotherGround;
+
     private Animator animator;
     private SpriteRenderer sprite;
     public bool isFlipped = false;
@@ -21,8 +23,9 @@ public class Movement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Ground"))
+        if (other.CompareTag("Ground")) 
         {
+            isAnotherGround = true;
             isGrounded = true;
             animator.SetBool("jump", false);
             animator.SetFloat("speed", 0);
@@ -31,8 +34,13 @@ public class Movement : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-       if (!other.CompareTag("Ground"))
-                isGrounded = false;
+       if (other.CompareTag("Ground") && !isAnotherGround)
+            
+             isGrounded = false;
+             animator.SetBool("jump", false);
+             isAnotherGround = false;
+
+
     }
     
    

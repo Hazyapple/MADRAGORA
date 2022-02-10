@@ -120,7 +120,7 @@ public class EnemyScript : MonoBehaviour
 
     void IsNearEdge()
     {
-        bool val = true;
+        //bool val = true;
 
         //define the cast distance from left to right
 
@@ -141,12 +141,12 @@ public class EnemyScript : MonoBehaviour
         if (Physics2D.Linecast(castPos.position, targetPos, 1 << LayerMask.NameToLayer("Ground")))
 
         {
-            val = false;
+            //val = false;
             isGroundedLeft = true;
         }
         else
         {
-            val = true;
+            //val = true;
             this.isGroundedLeft = false;
             
 
@@ -155,12 +155,12 @@ public class EnemyScript : MonoBehaviour
         if (Physics2D.Linecast(castPos2.position, targetPos2, 1 << LayerMask.NameToLayer("Ground")))
 
         {
-            val = false;
+            //val = false;
             isGroundedRight = true;
         }
         else
         {
-            val = true;
+           // val = true;
             this.isGroundedRight = false;
             
         }
