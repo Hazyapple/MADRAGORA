@@ -6,7 +6,7 @@ public class Movement : MonoBehaviour
 {
     public float moveSpeed = 10f;
     [SerializeField] private bool isGrounded;
-    [SerializeField] private bool isAnotherGround;
+
 
     private Animator animator;
     private SpriteRenderer sprite;
@@ -23,29 +23,66 @@ public class Movement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Ground")) 
+        if (other.CompareTag("Ground"))
         {
-            isAnotherGround = true;
-            isGrounded = true;
+            if(animator.GetBool("jump") == true)
+                animator.SetBool("jump", false);
+                animator.SetFloat("speed", 0);
+
+            if (isGrounded == false)
+            {
+                isGrounded = true;
+            }
+           
+                animator.SetBool("jump", false);
+                animator.SetFloat("speed", 0);
+                isGrounded = true;
+            
+        }
+
+        if (other.CompareTag("Shelf_Ground"))
+        {
+            if (animator.GetBool("jump") == true)
+                animator.SetBool("jump", false);
+            animator.SetFloat("speed", 0);
+
+            if (isGrounded == false)
+            {
+                isGrounded = true;
+            }
+
             animator.SetBool("jump", false);
             animator.SetFloat("speed", 0);
+            isGrounded = true;
+
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-       if (other.CompareTag("Ground") && !isAnotherGround)
-            
-             isGrounded = false;
-             animator.SetBool("jump", false);
-             isAnotherGround = false;
+        if (other.CompareTag("Ground"))
+        {
+            isGrounded = false;
+            animator.SetBool("jump", true);
+            //animator.SetFloat("speed", 1);
+        }
 
 
+
+        if (other.CompareTag("Shelf_Ground"))
+        {
+            isGrounded = false;
+            animator.SetBool("jump", true);
+            //animator.SetFloat("speed", 1);
+        }
     }
     
-   
-// Update is called once per frame
-private void Update()
+
+
+
+
+    // Update is called once per frame
+    private void Update()
     {
 
         if (Input.GetKey(KeyCode.LeftArrow) && !PlayerLife.isDead)
@@ -69,6 +106,7 @@ private void Update()
 
         if (Input.GetButtonDown("Jump") && isGrounded == true)
         {
+            
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 5f), ForceMode2D.Impulse);
             animator.SetBool("jump", true);
             animator.SetFloat("speed", 1);
@@ -76,6 +114,7 @@ private void Update()
 
         //idle
         if (isGrounded && (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow)))
+
         {
             animator.SetFloat("speed", 0);
         }

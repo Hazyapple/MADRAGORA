@@ -63,20 +63,43 @@ public class PlayerLife : MonoBehaviour
 
         if (collision.gameObject.CompareTag("EvilEye"))
         {
-            if ((currentHealth !=100)  == true)                   // isFullyHealed - healing with Evileye with not exceed player's max health. 
+                if ((currentHealth != 100) == true)                   // isFullyHealed - healing with Evileye with not exceed player's max health. 
+                {
+                    isFullyHealed = false;
+                    RestoreHealth(10);
+                    Destroy(collision.gameObject);
+                }
+                else
+                {
+                    isFullyHealed = true;
+
+                    Destroy(collision.gameObject);
+                }
+        }
+
+        
+
+
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("EvilEyeStatic"))
+        {
+            if ((currentHealth != 100) == true)                   // isFullyHealed - healing with Evileye with not exceed player's max health. 
             {
                 isFullyHealed = false;
                 RestoreHealth(10);
                 Destroy(collision.gameObject);
-            }             
-             else
+            }
+            else
             {
                 isFullyHealed = true;
-         
+
                 Destroy(collision.gameObject);
             }
-           
         }
+
     }
 
     void TakeDamage(int damage)

@@ -18,6 +18,8 @@ TagManager:
   - EdgeScreenDeath
   - MayHexBag
   - MayHexBagLoot
+  - EvilEyeStatic
+  - Shelf_Ground
   layers:
   - Default
   - TransparentFX
