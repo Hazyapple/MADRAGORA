@@ -60,6 +60,9 @@ TagManager:
   - name: Background
     uniqueID: 2551269381
     locked: 0
+  - name: instructions
+    uniqueID: 1118728381
+    locked: 0
   - name: Terrain (Mushrooms)
     uniqueID: 2133894967
     locked: 0
