@@ -45,7 +45,7 @@ public class EnemyScript : MonoBehaviour
         //code to near edge 
         baseScale = transform.localScale;
 
-
+      
 
 
     }
@@ -67,55 +67,72 @@ public class EnemyScript : MonoBehaviour
      
  
     }
-    // Update is called once per frame
+
     void Update()
     {
         //distance to player
+        
+
+
+
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
         float distToPlayer = Vector2.Distance(transform.position, player.position);
         isPlayerToTheRight = transform.position.x < player.position.x;
 
-        if (distToPlayer < agroRange && (isGroundedLeft || isPlayerToTheRight) && (isGroundedRight || !isPlayerToTheRight))
+        if (collision.gameObject.CompareTag("Player"))
         {
-            
-            //code to chase player
-            ChasePlayer();
-            animator.SetBool("attack", true);
-            animator.SetBool("idle", false);
-        }
 
-        else
-
-        {
-            //code to stop chasing player
-            StopChasingPlayer();
-            animator.SetBool("attack", false);
-            animator.SetBool("idle", true);
-        }
-
-         void ChasePlayer()
-        {
-            if(transform.position.x < player.position.x)
+            if (distToPlayer < agroRange && (isGroundedLeft || isPlayerToTheRight) && (isGroundedRight || !isPlayerToTheRight))
             {
-                //enemy is to the left side of the player, so move right
-                rb2d.velocity = new Vector2(moveSpeed, 0);
-                sprite.flipX = true;
 
-            }
-            else 
-            {
-                //enemy is to the right side of the player, so move left
-                rb2d.velocity = new Vector2(-moveSpeed, 0);
-                sprite.flipX = false;
+                //code to chase player
+                ChasePlayer();
+                animator.SetBool("attack", true);
+                animator.SetBool("idle", false);
             }
 
-            
-           
-        }
+            else
 
-         void StopChasingPlayer()
-        {
-            rb2d.velocity = new Vector2(0, 0); 
+            {
+                //code to stop chasing player
+                StopChasingPlayer();
+                animator.SetBool("attack", false);
+                animator.SetBool("idle", true);
+            }
+
+            void ChasePlayer()
+            {
+                if (transform.position.x < player.position.x)
+                {
+                    //enemy is to the left side of the player, so move right
+                    rb2d.velocity = new Vector2(moveSpeed, 0);
+                    sprite.flipX = true;
+
+                }
+                else
+                {
+                    //enemy is to the right side of the player, so move left
+                    rb2d.velocity = new Vector2(-moveSpeed, 0);
+                    sprite.flipX = false;
+                }
+
+
+
+            }
+
+
+
+
         }
+    }
+    // Update is called once per frame
+   
+    void StopChasingPlayer()
+    {
+        rb2d.velocity = new Vector2(0, 0);
     }
 
     void IsNearEdge()
