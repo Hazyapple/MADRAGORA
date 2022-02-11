@@ -25,17 +25,17 @@ public class Attack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.V))
         {
             ThrowHexBag();
         }
 
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             ThrowFlaskOfGlory();
         }
 
-        if(Input.GetKeyDown(KeyCode.C))
+        if(Input.GetKeyDown(KeyCode.X))
         {
             ThrowGiantMayHexBag();
         }
@@ -80,7 +80,7 @@ public class Attack : MonoBehaviour
             
             GameObject giantmayhexbagInstance = Instantiate(giantmayhexbag, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
 
-            giantmayhexbagInstance.GetComponent<Rigidbody2D>().AddForce(new Vector2(3f * direction, 5f), ForceMode2D.Impulse);
+            giantmayhexbagInstance.GetComponent<Rigidbody2D>().AddForce(new Vector2(5f * direction, 5f), ForceMode2D.Impulse);
             Physics2D.IgnoreCollision(giantmayhexbagInstance.GetComponent<Collider2D>(), GetComponent<Collider2D>());
 
             collectibleItem.useGiantMayHexBag();

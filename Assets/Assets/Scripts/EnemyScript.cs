@@ -17,17 +17,34 @@ public class EnemyScript : MonoBehaviour
     // close to edge code 
     [SerializeField]
     Transform castPos;  //subcompenent of game object gizmo CastPos
+   
     [SerializeField]
     Transform castPos2;
+
     [SerializeField]
     float baseCastDist;
+
+    [SerializeField]
+    Transform castPos3;
+
+    [SerializeField]
+    Transform castPos4;
+
+    [SerializeField]
+    float baseCastDistToPlayer;
+
+
 
 
     [SerializeField] public bool isGroundedLeft;
 
     [SerializeField] public bool isGroundedRight;
 
-    [SerializeField] public bool isPlayerToTheRight;
+
+    [SerializeField] public bool isPlayerNearRight;
+
+    [SerializeField] public bool isPlayerNearLeft;
+
 
     Vector3 baseScale;
 
@@ -45,13 +62,16 @@ public class EnemyScript : MonoBehaviour
         //code to near edge 
         baseScale = transform.localScale;
 
-      
+        //isPlayerToTheRight = transform.position.x < player.position.x;
+
+
+
 
 
     }
 
 
-     void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("HexFoxPlant"))
         {
@@ -61,83 +81,76 @@ public class EnemyScript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //change direction of sprite when near edge
-
-        IsNearEdge();
-     
- 
-    }
-
-    void Update()
-    {
-        //distance to player
         
+        IsNearEdge();
 
+        IsNearPlayer();
 
-
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        float distToPlayer = Vector2.Distance(transform.position, player.position);
-        isPlayerToTheRight = transform.position.x < player.position.x;
-
-        if (collision.gameObject.CompareTag("Player"))
+        //agro attack based on raycast 
+       if ((isPlayerNearRight || isPlayerNearLeft) && (isGroundedLeft || isGroundedRight))
         {
-
-            if (distToPlayer < agroRange && (isGroundedLeft || isPlayerToTheRight) && (isGroundedRight || !isPlayerToTheRight))
-            {
-
-                //code to chase player
-                ChasePlayer();
-                animator.SetBool("attack", true);
-                animator.SetBool("idle", false);
-            }
-
-            else
-
-            {
-                //code to stop chasing player
-                StopChasingPlayer();
-                animator.SetBool("attack", false);
-                animator.SetBool("idle", true);
-            }
-
-            void ChasePlayer()
-            {
-                if (transform.position.x < player.position.x)
-                {
-                    //enemy is to the left side of the player, so move right
-                    rb2d.velocity = new Vector2(moveSpeed, 0);
-                    sprite.flipX = true;
-
-                }
-                else
-                {
-                    //enemy is to the right side of the player, so move left
-                    rb2d.velocity = new Vector2(-moveSpeed, 0);
-                    sprite.flipX = false;
-                }
-
-
-
-            }
-
-
-
-
+            ChasePlayer();
         }
+
+
+       if ((isPlayerNearRight || isPlayerNearLeft) && (!isGroundedLeft || !isGroundedRight))
+        {
+            StopChasingPlayer();
+        }
+
+
+
+
+
+
+
+
+
+
+
     }
-    // Update is called once per frame
-   
+
+
+      void ChasePlayer()
+      {
+        if (isPlayerNearRight == true)
+             {
+            //enemy is to the left side of the player, so move right
+            rb2d.velocity = new Vector2(moveSpeed, 0);
+            animator.SetBool("attack", true);
+            animator.SetBool("idle", false);
+            sprite.flipX = true;
+
+              }
+        if (isPlayerNearLeft == true)
+            {
+            //enemy is to the right side of the player, so move left
+            rb2d.velocity = new Vector2(-moveSpeed, 0);
+            animator.SetBool("attack", true);
+            animator.SetBool("idle", false);
+            sprite.flipX = false;
+             }
+      }
+
+
     void StopChasingPlayer()
     {
-        rb2d.velocity = new Vector2(0, 0);
+        if (isPlayerNearRight == false)
+        {
+            rb2d.velocity = new Vector2(0, 0);
+        }
+
+        if (isPlayerNearLeft == false)
+        {
+            rb2d.velocity = new Vector2(0, 0);
+        }
+
+
     }
+        
 
     void IsNearEdge()
     {
-        //bool val = true;
 
         //define the cast distance from left to right
 
@@ -182,5 +195,44 @@ public class EnemyScript : MonoBehaviour
             
         }
     }
+
+
+   void  IsNearPlayer()
+    {
+        float castDist = baseCastDistToPlayer;
         
+        //determine the target destination based on cast distance
+
+        Vector3 targetPos3 = castPos3.position;
+        Vector3 targetPos4 = castPos4.position;
+
+        targetPos3.x += baseCastDistToPlayer;
+        targetPos4.x -= baseCastDistToPlayer;
+
+        Debug.DrawLine(castPos3.position, targetPos3, Color.blue);
+        Debug.DrawLine(castPos4.position, targetPos4, Color.blue); //shoots a ray downwords
+
+        if (Physics2D.Linecast(castPos3.position, targetPos3, 1 << LayerMask.NameToLayer("Player")))
+
+        {
+            isPlayerNearRight = true;
+            
+        }
+        else
+        {
+            this.isPlayerNearRight = false;
+        }
+
+        if (Physics2D.Linecast(castPos4.position, targetPos4, 1 << LayerMask.NameToLayer("Player")))
+
+        {
+            isPlayerNearLeft = true;
+        }
+        else
+        {
+            this.isPlayerNearLeft = false;
+        }
+    }
 }
+
+

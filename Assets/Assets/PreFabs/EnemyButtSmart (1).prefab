@@ -1,5 +1,67 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4640335423819204853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1716400689388048162}
+  m_Layer: 0
+  m_Name: CastPosPlayer3
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1716400689388048162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4640335423819204853}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.09, y: 0.23, z: -0.9927304}
+  m_LocalScale: {x: 5.504505, y: 5.100697, z: 4.500855}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7878996417887686985}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6224648081152947949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 287485864467893406}
+  m_Layer: 0
+  m_Name: CastPosPlayer4
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &287485864467893406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6224648081152947949}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.09, y: 0.23, z: -0.9927304}
+  m_LocalScale: {x: 5.504505, y: 5.100697, z: 4.500855}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7878996417887686985}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7878996417887686990
 GameObject:
   m_ObjectHideFlags: 0
@@ -15,7 +77,6 @@ GameObject:
   - component: {fileID: 7878996417887686986}
   - component: {fileID: 7878996417887686987}
   - component: {fileID: 7878996417887686984}
-  - component: {fileID: 332303718429640329}
   m_Layer: 0
   m_Name: EnemyButtSmart (1)
   m_TagString: Enemy
@@ -30,13 +91,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7878996417887686990}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.32, y: -10.07, z: 9.919824}
   m_LocalScale: {x: 0.18166935, y: 0.19605163, z: 0.22218}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7878996418593771944}
   - {fileID: 7878996418445306117}
+  - {fileID: 1716400689388048162}
+  - {fileID: 287485864467893406}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -177,9 +240,13 @@ MonoBehaviour:
   castPos: {fileID: 7878996418593771944}
   castPos2: {fileID: 7878996418445306117}
   baseCastDist: 0.5
+  castPos3: {fileID: 1716400689388048162}
+  castPos4: {fileID: 287485864467893406}
+  baseCastDistToPlayer: 2
   isGroundedLeft: 0
   isGroundedRight: 0
-  isPlayerToTheRight: 0
+  isPlayerNearRight: 0
+  isPlayerNearLeft: 0
 --- !u!114 &7878996417887686984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,32 +263,6 @@ MonoBehaviour:
   evileye: {fileID: 7377603510511247378, guid: 7bf5524cfc26bdf4da3941110524e30d, type: 3}
   mayapple: {fileID: 3848437285193335503, guid: 9a9c49acbe6364d4285e5de2a09765e1, type: 3}
   particleButt: {fileID: 73114829137408656, guid: e122b313fb4b75349a0e6f0d60ef69ee, type: 3}
---- !u!61 &332303718429640329
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7878996417887686990}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.7196431, y: -0.7094965}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.12, y: 5.12}
-    newSize: {x: 5.12, y: 5.12}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 20.64677, y: 3.165156}
-  m_EdgeRadius: 0
 --- !u!1 &7878996418445306122
 GameObject:
   m_ObjectHideFlags: 0
