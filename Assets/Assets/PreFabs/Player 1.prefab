@@ -36,7 +36,8 @@ Transform:
   m_LocalPosition: {x: -6.66, y: -2.01, z: 0}
   m_LocalScale: {x: 0.3334748, y: 0.3334748, z: 0.3334748}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 5181892491069908469}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -79,7 +80,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1720428377
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -37950836, guid: 5f9ab5c7a5846074488a62534d72fad9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -199,7 +200,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   isGrounded: 1
-  isAnotherGround: 0
   isFlipped: 0
 --- !u!114 &824484651280159797
 MonoBehaviour:
@@ -253,3 +253,62 @@ MonoBehaviour:
   hexbag: {fileID: 4989090271599861714, guid: 0390f6ae83cad394bbe265ccc44a2660, type: 3}
   flaskofglory: {fileID: 5894723894718426856, guid: 7beb3024f8247284f955f71f9e7c7375, type: 3}
   giantmayhexbag: {fileID: 4989090271599861714, guid: 4a0a4d2967f8975439299fd040e34c00, type: 3}
+--- !u!1 &3796485482499100982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5181892491069908469}
+  - component: {fileID: 4717300102932416426}
+  - component: {fileID: 8614098324865325018}
+  m_Layer: 0
+  m_Name: 'Camera Position '
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5181892491069908469
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3796485482499100982}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.27, y: -2.8, z: -44.047894}
+  m_LocalScale: {x: 2.998727, y: 2.998727, z: 2.998727}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 824484651280159791}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4717300102932416426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3796485482499100982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 291bee97de15b2444bbc178221f1904c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8614098324865325018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3796485482499100982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2723fe76b8eeb44a17f26ccd09d9f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 824484651280159787}
+  parallaxEffect: 0

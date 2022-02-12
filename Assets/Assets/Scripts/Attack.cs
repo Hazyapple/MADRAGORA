@@ -32,12 +32,13 @@ public class Attack : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.C))
         {
-            ThrowFlaskOfGlory();
+            ThrowGiantMayHexBag();
         }
 
         if(Input.GetKeyDown(KeyCode.X))
         {
-            ThrowGiantMayHexBag();
+           
+            ThrowFlaskOfGlory();
         }
 
     }
