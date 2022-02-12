@@ -75,7 +75,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1435832097
-  m_SortingLayer: 7
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_Sprite: {fileID: -1338207686, guid: 3507cb58d927ae049bd02ec1ae8bd0c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -171,4 +171,5 @@ MonoBehaviour:
   agroRange: 2
   moveSpeed: 2
   mayapple: {fileID: 3848437285193335503, guid: 9a9c49acbe6364d4285e5de2a09765e1, type: 3}
+  particle_poof_loot: {fileID: 1206529248471363316, guid: dc97ae2b4c88b934bb53e46ddc6a2792, type: 3}
   hexbag: {fileID: 4989090271599861714, guid: 7ce7c04a75e5b75419a6037d024194df, type: 3}

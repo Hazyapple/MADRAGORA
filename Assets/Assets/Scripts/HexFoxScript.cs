@@ -10,7 +10,7 @@ public class HexFoxScript : MonoBehaviour
     [SerializeField] float moveSpeed;
     public GameObject mayapple;                       // mayhexbag logic
 
-
+    public GameObject particle_poof_loot;
 
     public GameObject hexbag;    //prefab hexbag collectible item
 
@@ -78,6 +78,8 @@ public class HexFoxScript : MonoBehaviour
 
     void createHexBag()
     {
+       
+        Instantiate(particle_poof_loot, transform.position, Quaternion.identity);
         Instantiate(hexbag, new Vector2(this.position.x, transform.position.y), Quaternion.identity);
     }
 
