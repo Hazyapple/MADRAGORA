@@ -28,9 +28,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4989090271599861714}
-  m_LocalRotation: {x: -0, y: -0, z: -0.19645718, w: 0.9805125}
+  m_LocalRotation: {x: 0, y: 0, z: -0.19645946, w: 0.98051196}
   m_LocalPosition: {x: 2.851, y: -2.425, z: 0}
-  m_LocalScale: {x: 0.14951825, y: 0.14951825, z: 0.14951825}
+  m_LocalScale: {x: 0.2470684, y: 0.2470684, z: 0.2470684}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1435832097
-  m_SortingLayer: 7
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3fa8686aa57c7984f92ff5075f6279f3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -160,4 +160,3 @@ MonoBehaviour:
   slime: {fileID: 5468739444170929832, guid: a34439f80766d264fb5fea77f5094c65, type: 3}
   evileye: {fileID: 7377603510511247378, guid: 7bf5524cfc26bdf4da3941110524e30d, type: 3}
   particlepoof: {fileID: 1206529248471363316, guid: dc97ae2b4c88b934bb53e46ddc6a2792, type: 3}
-  particleButt: {fileID: 73114829137408656, guid: e122b313fb4b75349a0e6f0d60ef69ee, type: 3}

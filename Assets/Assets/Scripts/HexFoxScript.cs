@@ -49,11 +49,11 @@ public class HexFoxScript : MonoBehaviour
 
             this.position = transform.position;
 
-            createHexBag();
+            Invoke("createHexBag", 0.3f);
 
             GetComponent<Renderer>().enabled = false;
 
-            destroySelf();
+            Invoke("destroySelf", 0.5f);
         }
 
         if (collision.gameObject.CompareTag("MayHexBag"))                        //mayhexbag logic
