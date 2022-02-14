@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class CollectibleItem : MonoBehaviour
 {
+    [SerializeField] AudioSource loot; 
+
     private int _hexbags;
 
     private int _flaskofglory;
@@ -87,6 +89,8 @@ public class CollectibleItem : MonoBehaviour
         {
             if (!colletedIds.Contains(collision.gameObject.GetInstanceID()))
             {
+                loot.Play();
+
                 Destroy(collision.gameObject);
               
                 Mayapples++;
@@ -101,6 +105,7 @@ public class CollectibleItem : MonoBehaviour
 
                 if (has10Mayapples())
                 {
+                   ///////
                    
                     Instantiate(mayhexbag, transform.position, Quaternion.identity);
 
@@ -108,7 +113,9 @@ public class CollectibleItem : MonoBehaviour
 
                     useMayapples();
 
-                   
+                    loot.Play();
+
+
 
 
 
@@ -123,6 +130,8 @@ public class CollectibleItem : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Slime"))
         {
+            loot.Play();
+
             Destroy(collision.gameObject);
 
             flaskscript.IncreaseFill(10);                     //creates game object "FlaskOfGlory" when collected 10/10 slimes (flask max fill = 100)
@@ -138,6 +147,8 @@ public class CollectibleItem : MonoBehaviour
         {
             if (!colletedIds.Contains(collision.gameObject.GetInstanceID()))
             {
+                loot.Play();
+
                 Destroy(collision.gameObject);
                 Hexbags++;
                 colletedIds.Add(collision.gameObject.GetInstanceID());
@@ -148,6 +159,8 @@ public class CollectibleItem : MonoBehaviour
 
         if (collision.gameObject.CompareTag("FlaskOfGlory"))     // destroy flask_loot and create flask_to_throw in inventory (use hex bag logic)
         {
+            loot.Play();
+
             Destroy(collision.gameObject);
             FlaskOfGlory++;
             colletedIds.Add(collision.gameObject.GetInstanceID());
@@ -156,6 +169,7 @@ public class CollectibleItem : MonoBehaviour
 
         if (collision.gameObject.CompareTag("MayHexBagLoot"))
         {
+
             if (!colletedIds.Contains(collision.gameObject.GetInstanceID()))
             {
                 Destroy(collision.gameObject);

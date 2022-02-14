@@ -22,7 +22,8 @@ public class HexFoxScript : MonoBehaviour
 
     Rigidbody2D rb2d;
 
-    [SerializeField] AudioSource running;
+   // [SerializeField] AudioSource running;
+   // public AudioClip impact; 
     [SerializeField] AudioSource dying;
 
     // Start is called before the first frame update
@@ -31,6 +32,8 @@ public class HexFoxScript : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+
+        //running = GetComponent<AudioSource>();
     }
 
 
@@ -53,15 +56,16 @@ public class HexFoxScript : MonoBehaviour
 
             this.position = transform.position;
 
-            Invoke("createHexBag", 0.3f);
+            Invoke("createHexBag", 0.2f);
 
             GetComponent<Renderer>().enabled = false;
 
-            Invoke("destroySelf", 0.5f);
+            Invoke("destroySelf", 0.3f);
         }
 
         if (collision.gameObject.CompareTag("MayHexBag"))                        //mayhexbag logic
             {
+            dying.Play();
 
             this.position = transform.position;
 
@@ -105,7 +109,7 @@ public class HexFoxScript : MonoBehaviour
 
         if (distToPlayer < agroRange)
         {
-            running.Play();
+           // running.PlayOneShot(impact, 0.4F);
 
             //code to run from player
             RunFromPlayer();
@@ -124,12 +128,16 @@ public class HexFoxScript : MonoBehaviour
             animator.SetBool("idle", true);
         }
 
+    }
 
-        void RunFromPlayer()
+
+    void RunFromPlayer()
         {
-            if (transform.position.x < player.position.x)
+            
+
+        if (transform.position.x < player.position.x)
             {
-                
+              
                 rb2d.velocity = new Vector2(-moveSpeed, 0);
                 sprite.flipX = false;
             }
@@ -144,7 +152,8 @@ public class HexFoxScript : MonoBehaviour
 
         void StopRunningFromPlayer()
         {
+            
             rb2d.velocity = new Vector2(0, 0);
         }
-    }
+    
 }

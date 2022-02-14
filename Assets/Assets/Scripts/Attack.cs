@@ -12,7 +12,11 @@ public class Attack : MonoBehaviour
 
     public GameObject flaskofglory;        //
 
-    public GameObject giantmayhexbag;                      //
+    public GameObject giantmayhexbag;
+
+    [SerializeField] AudioSource gianthexsound;
+    [SerializeField] AudioSource hexbagsound;
+
 
     // Start is called before the first frame update
     void Start()
@@ -46,6 +50,8 @@ public class Attack : MonoBehaviour
     {
         if (collectibleItem.hasHaxBags())
         {
+            hexbagsound.Play();
+
             float direction = movement.isFlipped ? -1 : 1;
 
             GameObject hexbagInstance = Instantiate(hexbag, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
@@ -62,6 +68,8 @@ public class Attack : MonoBehaviour
     {
         if(collectibleItem.hasFlasks())
         {
+            hexbagsound.Play();
+
             float direction = movement.isFlipped ? -1 : 1;
 
             GameObject flaskofgloryInstance = Instantiate(flaskofglory, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
@@ -77,6 +85,8 @@ public class Attack : MonoBehaviour
     {
         if (collectibleItem.hasGiantMayHexbag())
         {
+            gianthexsound.Play();
+
             float direction = movement.isFlipped ? -1 : 1;
             
             GameObject giantmayhexbagInstance = Instantiate(giantmayhexbag, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);

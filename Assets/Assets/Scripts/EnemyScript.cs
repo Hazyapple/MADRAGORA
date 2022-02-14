@@ -138,11 +138,17 @@ public class EnemyScript : MonoBehaviour
         if (isPlayerNearRight == false)
         {
             rb2d.velocity = new Vector2(0, 0);
+            animator.SetBool("attack", false);
+            animator.SetBool("idle", true);
+            sprite.flipX = true;
         }
 
         if (isPlayerNearLeft == false)
         {
             rb2d.velocity = new Vector2(0, 0);
+            animator.SetBool("attack", false);
+            animator.SetBool("idle", true);
+            sprite.flipX = false;
         }
 
 

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SpawnLootFromEnemy : MonoBehaviour
 {
+    [SerializeField] AudioSource deathsound;
 
     public GameObject slime;
     public GameObject evileye;
@@ -15,7 +16,7 @@ public class SpawnLootFromEnemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("HexBag") && !this.isSpawned)
         {
-           
+            deathsound.Play();
             
             Instantiate(particleButt, transform.position, Quaternion.identity);
             
@@ -30,7 +31,7 @@ public class SpawnLootFromEnemy : MonoBehaviour
 
         if (collision.gameObject.CompareTag("MayHexBag") && !this.isSpawned)      // mayhexbag logic
         {
-
+            deathsound.Play();
 
             Instantiate(particleButt, transform.position, Quaternion.identity);
 

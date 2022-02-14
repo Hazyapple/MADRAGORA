@@ -175,7 +175,6 @@ MonoBehaviour:
   mayapple: {fileID: 3848437285193335503, guid: 9a9c49acbe6364d4285e5de2a09765e1, type: 3}
   particle_poof_loot: {fileID: 1206529248471363316, guid: dc97ae2b4c88b934bb53e46ddc6a2792, type: 3}
   hexbag: {fileID: 4989090271599861714, guid: 7ce7c04a75e5b75419a6037d024194df, type: 3}
-  running: {fileID: 2621603620440119639}
   dying: {fileID: 7265096058865551888}
 --- !u!82 &2621603620440119639
 AudioSource:
@@ -187,11 +186,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e38a907f55d04c342976792e4021e5d8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fb28bc552371639438ee1c5078993f8b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.693
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -285,7 +284,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 31031d1182ef2144281f794b992dd4e3, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.481
+  m_Volume: 0.275
   m_Pitch: 1
   Loop: 0
   Mute: 0
