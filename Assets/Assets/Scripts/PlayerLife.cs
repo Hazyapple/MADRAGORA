@@ -18,6 +18,10 @@ public class PlayerLife : MonoBehaviour
 
     public bool isFullyHealed;
 
+    [SerializeField] AudioSource hurt;
+    [SerializeField] AudioSource death;
+    [SerializeField] AudioSource healed; 
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -104,6 +108,8 @@ public class PlayerLife : MonoBehaviour
 
     void TakeDamage(int damage)
     {
+        hurt.Play();
+
         currentHealth -= damage;
 
         PlayerPrefs.SetInt("PlayerCurrentHealth", currentHealth);    //PlayerPrefab logic
@@ -122,6 +128,8 @@ public class PlayerLife : MonoBehaviour
 
     void Die()
     {
+        death.Play();
+
         rb.bodyType = RigidbodyType2D.Static;
         animator.SetTrigger("death");
         isDead = true;
@@ -139,6 +147,8 @@ public class PlayerLife : MonoBehaviour
     }
     public void RestoreHealth(int health)
     {
+        healed.Play();
+
         currentHealth += health;
 
         PlayerPrefs.SetInt("PlayerCurrentHealth", currentHealth);    //PlayerPrefab logic

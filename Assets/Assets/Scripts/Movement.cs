@@ -7,12 +7,14 @@ public class Movement : MonoBehaviour
     public float moveSpeed = 10f;
     [SerializeField] private bool isGrounded;
 
+   
+
 
     private Animator animator;
     private SpriteRenderer sprite;
     public bool isFlipped = false;
 
-
+    [SerializeField] AudioSource jumping;
 
     // Start is called before the first frame update
     void Start()
@@ -106,7 +108,7 @@ public class Movement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && isGrounded == true)
         {
-            
+            jumping.Play();
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 5f), ForceMode2D.Impulse);
             animator.SetBool("jump", true);
             animator.SetFloat("speed", 1);

@@ -277,3 +277,691 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020901 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 28.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (28683ms)
+		BeginReloadAssembly (24575ms)
+			ExecutionOrderSort (10ms)
+			DisableScriptedObjects (4517ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (94ms)
+			CreateAndSetChildDomain (11864ms)
+		EndReloadAssembly (2640ms)
+			LoadAssemblies (2500ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (931ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (121ms)
+			SetupLoadedEditorAssemblies (1111ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (106ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (803ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3901 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.7 KB). Loaded Objects now: 4377.
+Memory consumption went from 149.2 MB to 149.2 MB.
+Total: 162.461600 ms (FindLiveObjects: 0.389900 ms CreateObjectMapping: 0.242300 ms MarkObjects: 161.745500 ms  DeleteObjects: 0.082400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 138783.976091 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/38702__elanhickler__archi-sonar-03.wav
+  artifactKey: Guid(090d3661407cf8b4bbf4d87af6fa363b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/38702__elanhickler__archi-sonar-03.wav using Guid(090d3661407cf8b4bbf4d87af6fa363b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466c382bdbfdc293b5e96a7a3eea82c4') in 52.500010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047759 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/109662__grunz__success.wav
+  artifactKey: Guid(96868c29fa3c2b94195027be1c39dfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/109662__grunz__success.wav using Guid(96868c29fa3c2b94195027be1c39dfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aed19d46a334d72aa52395c7825fa2d') in 0.259057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/332388__felisleopard__toy-drum-medium-hit (1).wav
+  artifactKey: Guid(fda75377fada4a74383c09719b601b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/332388__felisleopard__toy-drum-medium-hit (1).wav using Guid(fda75377fada4a74383c09719b601b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01128e22974068a00fbed04a7fd59d7') in 0.017373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/563711__beetlemuse__synth-52684-1.wav
+  artifactKey: Guid(2455ae34a01b07f4284987888a78a4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/563711__beetlemuse__synth-52684-1.wav using Guid(2455ae34a01b07f4284987888a78a4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65de8b18a6bb56ba34053e9502aed349') in 0.020148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/191172__cahen__roul03.aiff
+  artifactKey: Guid(01dfb3e56b15dd349bab99edc9dc709f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/191172__cahen__roul03.aiff using Guid(01dfb3e56b15dd349bab99edc9dc709f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab38e59d665645c782833117a4e96ba') in 0.027021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/554482__beetlemuse__startup-sound-fx-1-roland-mt-32.wav
+  artifactKey: Guid(e44fa754b2542e546a21c1a2b2570fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/554482__beetlemuse__startup-sound-fx-1-roland-mt-32.wav using Guid(e44fa754b2542e546a21c1a2b2570fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7703745a015ed6bc1e24a72cb2d45280') in 0.020137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/82054__solitaryplace__sword-resonant (1).wav
+  artifactKey: Guid(a07c92690172edb4e94abdfb0902a585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/82054__solitaryplace__sword-resonant (1).wav using Guid(a07c92690172edb4e94abdfb0902a585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4eb32b67473e3a272610cf2b73dd4c0') in 0.079017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/580085__beetlemuse__robotic-shut-down.wav
+  artifactKey: Guid(eff584613e1fd804d8662e1d27243ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/580085__beetlemuse__robotic-shut-down.wav using Guid(eff584613e1fd804d8662e1d27243ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a6fa19a8422c88d3e5cdf50196e260') in 0.015984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/554066__beetlemuse__pc-shutdown-sound-xd.wav
+  artifactKey: Guid(dbc6fd79f5fc89b4688f232317c6a536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/554066__beetlemuse__pc-shutdown-sound-xd.wav using Guid(dbc6fd79f5fc89b4688f232317c6a536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cebb7ff97474ec24678f1d1cc7afaee') in 0.019257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/191590__leszek-szary__toy-button.wav
+  artifactKey: Guid(d79cf2f292895ec4fbf306b2703cb495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/191590__leszek-szary__toy-button.wav using Guid(d79cf2f292895ec4fbf306b2703cb495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8aa668f3518f9a12225f2512e89ac3') in 0.049646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/131660__bertrof__game-sound-correct.wav
+  artifactKey: Guid(dbfde40014efca54fb1228237b7a672e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/131660__bertrof__game-sound-correct.wav using Guid(dbfde40014efca54fb1228237b7a672e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3bc4a2e635a5f2d0ef10575f2198e3d') in 0.064650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/586239__beetlemuse__childhood-memories-long-version.wav
+  artifactKey: Guid(94e190394f3378443b1753d27337c5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/586239__beetlemuse__childhood-memories-long-version.wav using Guid(94e190394f3378443b1753d27337c5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c1adc4f97aee3493ba3b30b0cf505e') in 0.025833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/108934__soundcollectah__bottle-ping.aiff
+  artifactKey: Guid(99413641da8a5b64ea5cfe20c390c9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/108934__soundcollectah__bottle-ping.aiff using Guid(99413641da8a5b64ea5cfe20c390c9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74722b8c5eea94996f2546e5b026cc3d') in 0.050115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/529949__beetlemuse__beep-penguin-snow-globe-game.wav
+  artifactKey: Guid(35af9880712027841a368a0379219ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/529949__beetlemuse__beep-penguin-snow-globe-game.wav using Guid(35af9880712027841a368a0379219ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68504c1ff38b4b1118006cccfa4fd68') in 0.017510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/264171__gabrielekkj__sound-var-10.wav
+  artifactKey: Guid(16e806ae1d27c5b4fb1cc9402e3ebea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/264171__gabrielekkj__sound-var-10.wav using Guid(16e806ae1d27c5b4fb1cc9402e3ebea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00c6c951ad580b9aaad969620425e8d') in 0.028760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/42941__agfx__squeeky-ball-toy-10-l.wav
+  artifactKey: Guid(b619fd4f727740e4bab68b277f2c8047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/42941__agfx__squeeky-ball-toy-10-l.wav using Guid(b619fd4f727740e4bab68b277f2c8047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42b5c38d402dcbbea4e514816dbf59a') in 0.018855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/439520__inspectorj__green-toy-pig-squeaking-a.wav
+  artifactKey: Guid(31031d1182ef2144281f794b992dd4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/439520__inspectorj__green-toy-pig-squeaking-a.wav using Guid(31031d1182ef2144281f794b992dd4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04561ba6560bf2482e310c39c2c27908') in 0.014946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/528958__beetlemuse__level-up-mission-complete.wav
+  artifactKey: Guid(5edf90f4e496edf4291c61f66f5b6b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/528958__beetlemuse__level-up-mission-complete.wav using Guid(5edf90f4e496edf4291c61f66f5b6b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eaa8924ff754d2c697376d787c01fa7') in 0.021557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/400799__mutatorscotch__clown-nose-002.wav
+  artifactKey: Guid(891a46d69cf1b9a49a894e543f77810f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/400799__mutatorscotch__clown-nose-002.wav using Guid(891a46d69cf1b9a49a894e543f77810f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b4a4cc64aa3b3e0beca43bf8cd4dec') in 0.024478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/287377__modularsamples__fender-chroma-polaris-little-rascal-e3-52e2-gh7k.wav
+  artifactKey: Guid(320e612890294514499744d7f73f48e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/287377__modularsamples__fender-chroma-polaris-little-rascal-e3-52e2-gh7k.wav using Guid(320e612890294514499744d7f73f48e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8e573db01f67df51d416ed477517db') in 0.018760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/65314__christianjinnyzoe__bass-hit-robot-clown.wav
+  artifactKey: Guid(fb28bc552371639438ee1c5078993f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/65314__christianjinnyzoe__bass-hit-robot-clown.wav using Guid(fb28bc552371639438ee1c5078993f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce264e7a9790a15204fcd0c6384b12ad') in 0.015872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/566578__beetlemuse__15-seconds-of-fame.wav
+  artifactKey: Guid(f3930a6536212524ea8e1a0841ed8d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/566578__beetlemuse__15-seconds-of-fame.wav using Guid(f3930a6536212524ea8e1a0841ed8d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167b177206bb01d034ae5d9c569d152f') in 0.053969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/448817__arc241__squeaky-toy-2.wav
+  artifactKey: Guid(9c046ce642873894fbe7db859d57a6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/448817__arc241__squeaky-toy-2.wav using Guid(9c046ce642873894fbe7db859d57a6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53955a0a5bd92661ee641ef341ee9d72') in 0.080989 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.054247 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 32.600 seconds
+Domain Reload Profiling:
+	ReloadAssembly (32633ms)
+		BeginReloadAssembly (23733ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4018ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (15866ms)
+		EndReloadAssembly (7355ms)
+			LoadAssemblies (1663ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (2383ms)
+			ReleaseScriptCaches (204ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (2437ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (259ms)
+				SetLoadedEditorAssemblies (23ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (1927ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (106ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3901 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.7 KB). Loaded Objects now: 4387.
+Memory consumption went from 154.0 MB to 154.0 MB.
+Total: 171.516100 ms (FindLiveObjects: 0.349900 ms CreateObjectMapping: 0.205200 ms MarkObjects: 170.692800 ms  DeleteObjects: 0.267100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006841 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.919 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1920ms)
+		BeginReloadAssembly (401ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (265ms)
+		EndReloadAssembly (1407ms)
+			LoadAssemblies (192ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (616ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (476ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3901 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.6 KB). Loaded Objects now: 4389.
+Memory consumption went from 154.1 MB to 154.0 MB.
+Total: 6.179600 ms (FindLiveObjects: 0.531000 ms CreateObjectMapping: 0.293500 ms MarkObjects: 5.237600 ms  DeleteObjects: 0.116500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005553 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.516 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2517ms)
+		BeginReloadAssembly (496ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (168ms)
+		EndReloadAssembly (1722ms)
+			LoadAssemblies (209ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (449ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (845ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (644ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (70ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3901 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.6 KB). Loaded Objects now: 4391.
+Memory consumption went from 154.1 MB to 154.0 MB.
+Total: 22.306600 ms (FindLiveObjects: 0.529200 ms CreateObjectMapping: 3.689400 ms MarkObjects: 18.026600 ms  DeleteObjects: 0.059200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006291 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.169 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2170ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1853ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (367ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (985ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (736ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3901 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.6 KB). Loaded Objects now: 4393.
+Memory consumption went from 154.1 MB to 154.0 MB.
+Total: 11.706600 ms (FindLiveObjects: 0.493000 ms CreateObjectMapping: 0.545000 ms MarkObjects: 10.640100 ms  DeleteObjects: 0.027200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005679 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.975 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1976ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1641ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (848ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (626ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3901 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.6 KB). Loaded Objects now: 4395.
+Memory consumption went from 154.1 MB to 154.0 MB.
+Total: 10.952900 ms (FindLiveObjects: 0.593100 ms CreateObjectMapping: 0.406600 ms MarkObjects: 9.887900 ms  DeleteObjects: 0.063200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005857 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.648 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1649ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1387ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (786ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (592ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3901 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.6 KB). Loaded Objects now: 4397.
+Memory consumption went from 154.1 MB to 154.1 MB.
+Total: 32.236500 ms (FindLiveObjects: 0.386800 ms CreateObjectMapping: 0.293300 ms MarkObjects: 31.526500 ms  DeleteObjects: 0.028500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005740 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.925 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1926ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1664ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (1007ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (845ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3901 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.6 KB). Loaded Objects now: 4399.
+Memory consumption went from 154.1 MB to 154.1 MB.
+Total: 4.751800 ms (FindLiveObjects: 0.309000 ms CreateObjectMapping: 0.255400 ms MarkObjects: 4.150300 ms  DeleteObjects: 0.036300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005843 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Madragora\Unity\MADRAGORA\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.753 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1753ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1500ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (315ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (731ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (532ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3901 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (24.7 KB). Loaded Objects now: 4401.
+Memory consumption went from 154.1 MB to 154.1 MB.
+Total: 7.930500 ms (FindLiveObjects: 0.540800 ms CreateObjectMapping: 0.389100 ms MarkObjects: 6.943500 ms  DeleteObjects: 0.054500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 69554.510086 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/42940__agfx__squeeky-ball-toy-1-l.wav
+  artifactKey: Guid(73d99c27c4c010c44906404563df07ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/42940__agfx__squeeky-ball-toy-1-l.wav using Guid(73d99c27c4c010c44906404563df07ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f8f3e314eb23f9b8da4db5121f0c32') in 1.323238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/244480__zimbot__cracklingsquish.wav
+  artifactKey: Guid(dceecc36889f2ec43ac130a8ad2444f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/244480__zimbot__cracklingsquish.wav using Guid(dceecc36889f2ec43ac130a8ad2444f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79f68598f7635c9325ae3347e5019e1') in 0.014550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/483608__raclure__improvement-healing-chime.mp3
+  artifactKey: Guid(87a34f362869c2241b9d7d5366143326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/483608__raclure__improvement-healing-chime.mp3 using Guid(87a34f362869c2241b9d7d5366143326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9dbfddd0a126b09fef4a19be44df7cf') in 0.122889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Game_music/Sound Files for Madregora/542195__breviceps__cartoon-wobble.wav
+  artifactKey: Guid(9eab0c5aeb83a024ba218440f229ae86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game_music/Sound Files for Madregora/542195__breviceps__cartoon-wobble.wav using Guid(9eab0c5aeb83a024ba218440f229ae86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc051518fd49366730f379e467f8a72f') in 0.067072 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

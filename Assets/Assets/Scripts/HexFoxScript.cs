@@ -22,6 +22,9 @@ public class HexFoxScript : MonoBehaviour
 
     Rigidbody2D rb2d;
 
+    [SerializeField] AudioSource running;
+    [SerializeField] AudioSource dying;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +49,7 @@ public class HexFoxScript : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Player"))
         {
+            dying.Play();
 
             this.position = transform.position;
 
@@ -101,8 +105,11 @@ public class HexFoxScript : MonoBehaviour
 
         if (distToPlayer < agroRange)
         {
+            running.Play();
+
             //code to run from player
             RunFromPlayer();
+
             animator.SetBool("run", true);
             animator.SetBool("idle", false);
 
@@ -122,12 +129,14 @@ public class HexFoxScript : MonoBehaviour
         {
             if (transform.position.x < player.position.x)
             {
+                
                 rb2d.velocity = new Vector2(-moveSpeed, 0);
                 sprite.flipX = false;
             }
 
             else
             {
+                
                 rb2d.velocity = new Vector2(moveSpeed, 0);
                 sprite.flipX = true;
             }
