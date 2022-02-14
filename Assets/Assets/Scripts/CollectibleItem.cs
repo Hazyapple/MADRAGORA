@@ -5,7 +5,9 @@ using UnityEngine.UI;
 
 public class CollectibleItem : MonoBehaviour
 {
-    [SerializeField] AudioSource loot; 
+    [SerializeField] AudioSource loot;
+    [SerializeField] AudioSource flaskisfilled;
+    [SerializeField] AudioSource gianthexobtained;
 
     private int _hexbags;
 
@@ -105,8 +107,8 @@ public class CollectibleItem : MonoBehaviour
 
                 if (has10Mayapples())
                 {
-                   ///////
-                   
+                    gianthexobtained.Play();
+
                     Instantiate(mayhexbag, transform.position, Quaternion.identity);
 
                     giantmayscript.SetCurrentMayapples(0);
@@ -138,6 +140,8 @@ public class CollectibleItem : MonoBehaviour
 
             if (flaskscript.currentFill == 100)
             {
+                flaskisfilled.Play();
+
                 Instantiate(flaskOfGlory, transform.position, Quaternion.identity);
                 flaskscript.SetFlaskFill(0);
             }
@@ -159,7 +163,7 @@ public class CollectibleItem : MonoBehaviour
 
         if (collision.gameObject.CompareTag("FlaskOfGlory"))     // destroy flask_loot and create flask_to_throw in inventory (use hex bag logic)
         {
-            loot.Play();
+            flaskisfilled.Play();
 
             Destroy(collision.gameObject);
             FlaskOfGlory++;

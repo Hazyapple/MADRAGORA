@@ -88,6 +88,7 @@ public class HexFoxScript : MonoBehaviour
     {
        
         Instantiate(particle_poof_loot, transform.position, Quaternion.identity);
+
         Instantiate(hexbag, new Vector2(this.position.x, transform.position.y), Quaternion.identity);
     }
 
