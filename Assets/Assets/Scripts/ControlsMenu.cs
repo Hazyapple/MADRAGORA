@@ -5,8 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class ControlsMenu : MonoBehaviour
 {
+    [SerializeField] AudioSource hitbutton; 
     public void ControlsMenuScript()
     {
+        hitbutton.Play();
         SceneManager.LoadScene(0);
     }
 }

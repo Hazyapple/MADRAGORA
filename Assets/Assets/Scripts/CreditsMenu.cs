@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class CreditsMenu : MonoBehaviour
 {
-   public void CreditsMenuMethod()
+    [SerializeField] AudioSource hitbutton;
+
+    public void CreditsMenuMethod()
     {
+        hitbutton.Play();
         SceneManager.LoadScene(1);
     }
 
