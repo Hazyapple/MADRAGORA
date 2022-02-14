@@ -10,7 +10,7 @@ public class CreditsMenu : MonoBehaviour
     public void CreditsMenuMethod()
     {
         hitbutton.Play();
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
 }

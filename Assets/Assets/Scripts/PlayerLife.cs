@@ -140,7 +140,7 @@ public class PlayerLife : MonoBehaviour
 
     private void GameOverScreen()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
 
         isDead = false;
 

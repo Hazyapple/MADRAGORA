@@ -156,10 +156,10 @@ RectTransform:
   m_Father: {fileID: 1502539309}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 236.78}
-  m_SizeDelta: {x: 130, y: 23}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 207.06}
+  m_SizeDelta: {x: -890, y: -551}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6526785
 MonoBehaviour:
@@ -230,12 +230,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1502539309}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 122.25}
-  m_SizeDelta: {x: 314.4988, y: 30}
+  m_AnchoredPosition: {x: -7.389099, y: 14.286011}
+  m_SizeDelta: {x: 453.5583, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &123693461
 MonoBehaviour:
@@ -270,7 +270,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Art and Design by Mor Halperin '
+  m_Text: 'Original Idea and development by Mor Halperin '
 --- !u!222 &123693462
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -461,12 +461,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1502539309}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 5.75}
-  m_SizeDelta: {x: 515.7851, y: 30}
+  m_AnchoredPosition: {x: -7.389099, y: -58.71399}
+  m_SizeDelta: {x: 437.82, y: 53.5694}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1279604730
 MonoBehaviour:
@@ -490,18 +490,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 73d97b6369ba0594789336774a5475e0, type: 3}
-    m_FontSize: 20
+    m_FontSize: 15
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Coding by Mor Hlaperin and the help of Alex Zhilkin :)
+  m_Text: 'Special thanks to Alex Zhilkin for helping in code and original soundtrack. '
 --- !u!222 &1279604731
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -546,11 +546,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1502539309}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -85.25}
+  m_AnchoredPosition: {x: 3.6109009, y: 64.28601}
   m_SizeDelta: {x: 299.019, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1420048315
@@ -594,86 +594,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1420048313}
-  m_CullTransparentMesh: 1
---- !u!1 &1502173256
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1502173257}
-  - component: {fileID: 1502173259}
-  - component: {fileID: 1502173258}
-  m_Layer: 5
-  m_Name: Text (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1502173257
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502173256}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1502539309}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -139}
-  m_SizeDelta: {x: 359.8579, y: 90.5}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1502173258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502173256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.6156863, g: 0.47058824, b: 0.7372549, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 73d97b6369ba0594789336774a5475e0, type: 3}
-    m_FontSize: 20
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "Contact Info - \nlaelbymh@gmail.com\njilkinalex@gmail.com"
---- !u!222 &1502173259
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502173256}
   m_CullTransparentMesh: 1
 --- !u!1 &1502539305
 GameObject:
@@ -770,11 +690,10 @@ RectTransform:
   - {fileID: 1631192159}
   - {fileID: 2009789001}
   - {fileID: 6526784}
-  - {fileID: 1748786192}
   - {fileID: 123693460}
   - {fileID: 1279604729}
   - {fileID: 1420048314}
-  - {fileID: 1502173257}
+  - {fileID: 1666522359}
   - {fileID: 1401464736}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -860,7 +779,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1631192158}
   m_CullTransparentMesh: 1
---- !u!1 &1748786191
+--- !u!1 &1666522358
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -868,50 +787,50 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1748786192}
-  - component: {fileID: 1748786194}
-  - component: {fileID: 1748786193}
+  - component: {fileID: 1666522359}
+  - component: {fileID: 1666522361}
+  - component: {fileID: 1666522360}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Text (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1748786192
+--- !u!224 &1666522359
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1748786191}
+  m_GameObject: {fileID: 1666522358}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1502539309}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 64.75}
-  m_SizeDelta: {x: 401.0692, y: 30}
+  m_AnchoredPosition: {x: -12, y: -11}
+  m_SizeDelta: {x: 209.615, y: 20.5722}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1748786193
+--- !u!114 &1666522360
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1748786191}
+  m_GameObject: {fileID: 1666522358}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6122477, g: 0.4685831, b: 0.735849, a: 1}
+  m_Color: {r: 0.6156863, g: 0.47058824, b: 0.7372549, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -920,10 +839,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 73d97b6369ba0594789336774a5475e0, type: 3}
-    m_FontSize: 20
+    m_FontSize: 15
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -931,14 +850,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Original Sountrack Music by Alex Zhilkin '
---- !u!222 &1748786194
+  m_Text: 'E-mail  laelbymh@gmail.com '
+--- !u!222 &1666522361
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1748786191}
+  m_GameObject: {fileID: 1666522358}
   m_CullTransparentMesh: 1
 --- !u!1 &2009789000
 GameObject:
@@ -973,10 +892,10 @@ RectTransform:
   m_Father: {fileID: 1502539309}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 267}
-  m_SizeDelta: {x: 219.8369, y: 82.4388}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 236.78003}
+  m_SizeDelta: {x: -800.1631, y: -491.56122}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2009789002
 MonoBehaviour:
@@ -1037,7 +956,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3649593567126319035, guid: 053ee13a8ff2f3445b426de03b06b40f, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3649593567126319035, guid: 053ee13a8ff2f3445b426de03b06b40f, type: 3}
       propertyPath: m_AnchorMax.x

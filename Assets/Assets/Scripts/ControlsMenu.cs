@@ -9,6 +9,6 @@ public class ControlsMenu : MonoBehaviour
     public void ControlsMenuScript()
     {
         hitbutton.Play();
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }
