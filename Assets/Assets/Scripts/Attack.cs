@@ -16,6 +16,7 @@ public class Attack : MonoBehaviour
 
     [SerializeField] AudioSource gianthexsound;
     [SerializeField] AudioSource hexbagsound;
+    [SerializeField] AudioSource flasksound; 
 
 
     // Start is called before the first frame update
@@ -68,16 +69,21 @@ public class Attack : MonoBehaviour
     {
         if(collectibleItem.hasFlasks())
         {
-            hexbagsound.Play();
+            flasksound.Play();
 
             float direction = movement.isFlipped ? -1 : 1;
 
             GameObject flaskofgloryInstance = Instantiate(flaskofglory, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
 
             flaskofgloryInstance.GetComponent<Rigidbody2D>().AddForce(new Vector2(3f * direction, 3f), ForceMode2D.Impulse);
+
             Physics2D.IgnoreCollision(flaskofgloryInstance.GetComponent<Collider2D>(), GetComponent<Collider2D>());
 
             collectibleItem.useFlaskOfGlory();
+
+            
+
+
         }
     }
 
@@ -91,7 +97,7 @@ public class Attack : MonoBehaviour
             
             GameObject giantmayhexbagInstance = Instantiate(giantmayhexbag, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
 
-            giantmayhexbagInstance.GetComponent<Rigidbody2D>().AddForce(new Vector2(5f * direction, 5f), ForceMode2D.Impulse);
+            giantmayhexbagInstance.GetComponent<Rigidbody2D>().AddForce(new Vector2(5f * direction, 4f), ForceMode2D.Impulse);
             Physics2D.IgnoreCollision(giantmayhexbagInstance.GetComponent<Collider2D>(), GetComponent<Collider2D>());
 
             collectibleItem.useGiantMayHexBag();

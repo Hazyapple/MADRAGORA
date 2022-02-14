@@ -243,7 +243,7 @@ MonoBehaviour:
   baseCastDist: 0.5
   castPos3: {fileID: 1716400689388048162}
   castPos4: {fileID: 287485864467893406}
-  baseCastDistToPlayer: 2.5
+  baseCastDistToPlayer: 3
   isGroundedLeft: 0
   isGroundedRight: 0
   isPlayerNearRight: 0

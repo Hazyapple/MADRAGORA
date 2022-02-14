@@ -16,11 +16,14 @@ public class Movement : MonoBehaviour
 
     [SerializeField] AudioSource jumping;
 
+    [SerializeField] AudioSource startlvl;
+ 
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
+        startlvl.Play();
     }
 
     private void OnTriggerEnter2D(Collider2D other)

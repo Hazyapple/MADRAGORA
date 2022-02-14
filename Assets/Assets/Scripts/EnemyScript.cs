@@ -198,6 +198,7 @@ public class EnemyScript : MonoBehaviour
         {
            // val = true;
             this.isGroundedRight = false;
+
             
         }
     }
@@ -227,6 +228,9 @@ public class EnemyScript : MonoBehaviour
         else
         {
             this.isPlayerNearRight = false;
+            animator.SetBool("attack", false);
+            animator.SetBool("idle", true);
+
         }
 
         if (Physics2D.Linecast(castPos4.position, targetPos4, 1 << LayerMask.NameToLayer("Player")))
@@ -237,6 +241,8 @@ public class EnemyScript : MonoBehaviour
         else
         {
             this.isPlayerNearLeft = false;
+            animator.SetBool("attack", false);
+            animator.SetBool("idle", true);
         }
     }
 }

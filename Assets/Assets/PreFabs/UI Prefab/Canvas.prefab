@@ -903,7 +903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7182e185107690b47b2f5914ea684908, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mayapples: {fileID: 0}
+  mayapples: {fileID: 7902435335003816729}
   maxMayapples: 10
   currentMayapples: 0
 --- !u!1 &7902435334229768132

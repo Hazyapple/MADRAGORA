@@ -47,14 +47,14 @@ public class PlayerLife : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Trap"))
         {
-            TakeDamage(20);
+            TakeDamage(10);
             Instantiate(particleblood, transform.position, Quaternion.identity);
 
         }
 
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            TakeDamage(40);
+            TakeDamage(20);
             Instantiate(particleblood, transform.position, Quaternion.identity);
         }
 
