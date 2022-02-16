@@ -18,6 +18,7 @@ public class MayHexBagScript : MonoBehaviour
             isCollided = true;
            // Invoke("DestroyThisGiantBag", 3f);
             PoofOnVolcano();
+            GetComponent<Rigidbody2D>().AddForce((transform.up * 1 + transform.right * 2), ForceMode2D.Impulse);
         }
 
         if (collision.gameObject.CompareTag("Enemy"))
@@ -25,11 +26,13 @@ public class MayHexBagScript : MonoBehaviour
             isCollided = true;
            // Invoke("DestroyThisGiantBag", 4f);
             PoofOnVolcano();
+            GetComponent<Rigidbody2D>().AddForce((transform.up * 1 + transform.right * 2), ForceMode2D.Impulse);
         }
 
         if (collision.gameObject.CompareTag("Player"))
         {
             Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+            GetComponent<Rigidbody2D>().AddForce((transform.up * 1 + transform.right * 2), ForceMode2D.Impulse);
         }
 
         if (!isCollided)

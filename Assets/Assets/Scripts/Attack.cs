@@ -99,7 +99,7 @@ public class Attack : MonoBehaviour
 
             giantmayhexbagInstance.GetComponent<Rigidbody2D>().AddForce(new Vector2(2f * direction, 2f), ForceMode2D.Impulse);
 
-            giantmayhexbagInstance.GetComponent<Rigidbody2D>().AddForce((transform.up * 3 + transform.right * 1), ForceMode2D.Impulse);
+            //giantmayhexbagInstance.GetComponent<Rigidbody2D>().AddForce((transform.up * 3 + transform.right * 1), ForceMode2D.Impulse);
 
             Physics2D.IgnoreCollision(giantmayhexbagInstance.GetComponent<Collider2D>(), GetComponent<Collider2D>());
 
