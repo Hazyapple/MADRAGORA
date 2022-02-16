@@ -32,7 +32,7 @@ public class MayHexBagScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
-            GetComponent<Rigidbody2D>().AddForce((transform.up * 1 + transform.right * 2), ForceMode2D.Impulse);
+            //SGetComponent<Rigidbody2D>().AddForce((transform.up * 1 + transform.right * 2), ForceMode2D.Impulse);
         }
 
         if (!isCollided)

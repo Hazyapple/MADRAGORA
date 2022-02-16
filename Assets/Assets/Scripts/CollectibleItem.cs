@@ -109,9 +109,15 @@ public class CollectibleItem : MonoBehaviour
                 {
                     gianthexobtained.Play();
 
-                    Instantiate(mayhexbag, transform.position, Quaternion.identity);
-
                     giantmayscript.SetCurrentMayapples(0);
+
+                    // Instantiate(mayhexbag, transform.position, Quaternion.identity);
+
+                    GiantMayHexBags++;
+
+                    colletedIds.Add(collision.gameObject.GetInstanceID());
+
+                    Debug.Log("GiantMayHexBags: " + Hexbags);
 
                     useMayapples();
 

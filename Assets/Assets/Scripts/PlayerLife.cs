@@ -45,6 +45,13 @@ public class PlayerLife : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.CompareTag("Volcano"))
+        {
+            TakeDamage(100);
+            Instantiate(particleblood, transform.position, Quaternion.identity);
+
+        }
+
         if (collision.gameObject.CompareTag("Trap"))
         {
             TakeDamage(10);
